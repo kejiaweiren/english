@@ -1,0 +1,128 @@
+2018-12-07 14:26:17,328 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 14472 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-12-07 14:26:17,410 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-12-07 14:26:17,414 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-07 14:26:31,089 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 19.684 seconds (JVM running for 28.56)
+2018-12-07 14:27:14,101 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:27:14,169 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:27:14,702 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:27:19,872 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:27:19,873 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:27:19,875 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:27:24,134 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:27:24,135 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:27:24,138 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:27:24,614 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:27:24,614 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:27:24,616 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:27:24,837 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:27:24,838 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:27:24,841 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:27:25,241 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:27:25,242 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:27:25,244 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:27:25,824 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:27:25,825 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:27:25,829 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:27:26,379 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:27:26,380 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:27:26,385 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:42:16,821 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 16256 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-12-07 14:42:16,825 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-12-07 14:42:16,827 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-07 14:42:19,738 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 3.913 seconds (JVM running for 5.764)
+2018-12-07 14:42:26,637 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:42:26,664 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:42:26,794 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:42:28,433 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:42:28,436 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:42:28,442 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:42:31,182 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:42:31,183 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:42:31,189 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:42:35,683 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:42:35,685 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:42:35,690 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:42:36,756 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:42:36,757 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:42:36,761 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:42:37,449 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:42:37,450 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:42:37,453 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:42:37,941 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:42:37,942 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:42:37,949 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:42:38,436 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:42:38,438 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:42:38,441 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:42:38,917 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:42:38,919 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:42:38,922 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:42:39,380 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:42:39,382 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:42:39,386 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:42:39,780 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:42:39,782 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:42:39,786 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:42:40,204 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:42:40,205 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:42:40,207 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:42:56,813 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:42:56,814 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:42:56,817 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:43:09,009 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:43:09,009 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:43:09,012 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:43:39,441 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:43:39,442 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:43:39,445 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:43:39,894 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:43:39,896 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:43:39,904 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:43:43,583 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:43:43,585 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:43:43,589 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:43:45,755 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:43:45,757 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:43:45,760 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:43:46,443 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:43:46,444 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:43:46,448 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:43:46,955 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:43:46,956 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:43:46,960 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:43:54,414 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:43:54,416 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:43:54,419 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:43:56,861 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:43:56,862 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:43:56,866 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:43:57,671 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:43:57,672 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:43:57,673 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:43:58,372 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:43:58,374 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:43:58,377 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:43:59,585 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:43:59,587 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:43:59,590 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:44:00,332 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:44:00,334 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:44:00,338 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:44:00,903 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:44:00,904 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:44:00,906 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:44:22,162 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:44:22,163 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:44:22,165 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:44:31,834 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:44:31,835 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:44:31,837 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:47:46,200 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:47:46,201 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:47:46,203 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:48:23,821 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:48:23,821 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:48:23,823 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-07 14:49:11,541 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-07 14:49:11,542 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-07 14:49:11,544 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

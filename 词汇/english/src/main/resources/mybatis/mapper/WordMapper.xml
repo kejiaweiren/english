@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kjw.dao.WordMapper">
+   <resultMap id="BaseResultMap" type="com.kjw.bean.Word">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="word" jdbcType="VARCHAR" property="word" />
+    <result column="chinese" jdbcType="VARCHAR" property="chinese" />
+    <result column="root" jdbcType="VARCHAR" property="root" />
+    <result column="coreword" jdbcType="VARCHAR" property="coreword" />
+    <result column="sentence" jdbcType="VARCHAR" property="sentence" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, word, chinese, root, coreword, sentence, note
+  </sql>
+  <select id="selectByExample" parameterType="com.kjw.bean.WordExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from word
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from word
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from word
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.kjw.bean.WordExample">
+    delete from word
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.kjw.bean.Word">
+    insert into word (id, word, chinese, 
+      root, coreword, sentence, 
+      note)
+    values (#{id,jdbcType=INTEGER}, #{word,jdbcType=VARCHAR}, #{chinese,jdbcType=VARCHAR}, 
+      #{root,jdbcType=VARCHAR}, #{coreword,jdbcType=VARCHAR}, #{sentence,jdbcType=VARCHAR}, 
+      #{note,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.kjw.bean.Word">
+    insert into word
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="word != null">
+        word,
+      </if>
+      <if test="chinese != null">
+        chinese,
+      </if>
+      <if test="root != null">
+        root,
+      </if>
+      <if test="coreword != null">
+        coreword,
+      </if>
+      <if test="sentence != null">
+        sentence,
+      </if>
+      <if test="note != null">
+        note,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="word != null">
+        #{word,jdbcType=VARCHAR},
+      </if>
+      <if test="chinese != null">
+        #{chinese,jdbcType=VARCHAR},
+      </if>
+      <if test="root != null">
+        #{root,jdbcType=VARCHAR},
+      </if>
+      <if test="coreword != null">
+        #{coreword,jdbcType=VARCHAR},
+      </if>
+      <if test="sentence != null">
+        #{sentence,jdbcType=VARCHAR},
+      </if>
+      <if test="note != null">
+        #{note,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.kjw.bean.WordExample" resultType="java.lang.Long">
+    select count(*) from word
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update word
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.word != null">
+        word = #{record.word,jdbcType=VARCHAR},
+      </if>
+      <if test="record.chinese != null">
+        chinese = #{record.chinese,jdbcType=VARCHAR},
+      </if>
+      <if test="record.root != null">
+        root = #{record.root,jdbcType=VARCHAR},
+      </if>
+      <if test="record.coreword != null">
+        coreword = #{record.coreword,jdbcType=VARCHAR},
+      </if>
+      <if test="record.sentence != null">
+        sentence = #{record.sentence,jdbcType=VARCHAR},
+      </if>
+      <if test="record.note != null">
+        note = #{record.note,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update word
+    set id = #{record.id,jdbcType=INTEGER},
+      word = #{record.word,jdbcType=VARCHAR},
+      chinese = #{record.chinese,jdbcType=VARCHAR},
+      root = #{record.root,jdbcType=VARCHAR},
+      coreword = #{record.coreword,jdbcType=VARCHAR},
+      sentence = #{record.sentence,jdbcType=VARCHAR},
+      note = #{record.note,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.kjw.bean.Word">
+    update word
+    <set>
+      <if test="word != null">
+        word = #{word,jdbcType=VARCHAR},
+      </if>
+      <if test="chinese != null">
+        chinese = #{chinese,jdbcType=VARCHAR},
+      </if>
+      <if test="root != null">
+        root = #{root,jdbcType=VARCHAR},
+      </if>
+      <if test="coreword != null">
+        coreword = #{coreword,jdbcType=VARCHAR},
+      </if>
+      <if test="sentence != null">
+        sentence = #{sentence,jdbcType=VARCHAR},
+      </if>
+      <if test="note != null">
+        note = #{note,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.kjw.bean.Word">
+    update word
+    set word = #{word,jdbcType=VARCHAR},
+      chinese = #{chinese,jdbcType=VARCHAR},
+      root = #{root,jdbcType=VARCHAR},
+      coreword = #{coreword,jdbcType=VARCHAR},
+      sentence = #{sentence,jdbcType=VARCHAR},
+      note = #{note,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+      <insert id="batchInsert" parameterType="java.util.List">
+        INSERT INTO word(word, chinese,note,coreword,root,sentence,phonetic)
+        values
+        <foreach collection="list" index="" item="word" separator=",">
+            (
+            #{word.word},#{word.chinese},#{word.note},
+            #{word.coreword},#{word.root},#{word.sentence},
+            #{word.phonetic}
+            )
+        </foreach>
+    </insert>
+    <select id="randomWord" resultMap="BaseResultMap">
+        select
+       *
+        FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2
+        WHERE t1.id &gt;= t2.id
+        ORDER BY t1.id LIMIT 1;
+    </select>
+</mapper>

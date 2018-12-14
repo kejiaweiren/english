@@ -1,0 +1,1144 @@
+2018-11-28 09:50:36,599 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 11852 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 09:50:36,610 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 09:50:36,613 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 09:50:41,067 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 5.382 seconds (JVM running for 7.865)
+2018-11-28 09:53:02,809 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 09:53:08,070 INFO (WordController.java:89)- page method: pn:1,word:
+2018-11-28 09:53:08,302 INFO (WordController.java:89)- page method: pn:1,word:
+2018-11-28 09:53:08,445 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 09:53:08,445 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 09:53:08,482 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 09:53:08,482 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 09:53:08,536 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 09:53:08,536 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 09:53:08,539 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, iskeyword, sentence from word LIMIT ? 
+2018-11-28 09:53:08,539 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, iskeyword, sentence from word LIMIT ? 
+2018-11-28 09:53:08,540 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 09:53:08,540 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 09:53:08,543 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 09:53:08,543 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 09:53:17,775 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 09:53:37,240 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 09:54:02,802 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:03:55,151 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 11424 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 10:03:55,157 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 10:03:55,160 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 10:05:36,726 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 7896 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 10:05:36,730 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 10:05:36,731 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 10:05:39,467 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 4.166 seconds (JVM running for 5.674)
+2018-11-28 10:05:57,750 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:06:02,925 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:06:22,493 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:07:07,830 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:07:35,577 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:09:12,988 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:09:43,765 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:09:50,289 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:10:22,476 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:10:29,557 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 6184 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 10:10:29,563 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 10:10:29,565 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 10:10:33,547 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 5.615 seconds (JVM running for 7.26)
+2018-11-28 10:10:47,358 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:11:04,253 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:11:39,840 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:11:48,280 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:12:06,249 ERROR (WordController.java:118)- java.lang.NullPointerException
+2018-11-28 10:15:48,556 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 11592 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 10:15:48,561 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 10:15:48,627 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 10:15:51,337 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 4.128 seconds (JVM running for 5.828)
+2018-11-28 10:16:09,096 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 10:16:09,431 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: are(String), is(String), aaa(String)
+2018-11-28 10:16:09,696 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 10:16:18,728 INFO (WordController.java:89)- page method: pn:1,word:
+2018-11-28 10:16:18,776 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 10:16:18,777 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 10:16:18,781 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 10:16:18,784 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 10:16:18,785 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 10:16:18,787 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 10:16:49,531 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 10:16:49,535 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: are(String), is(String), aaa(String)
+2018-11-28 10:16:49,542 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 10:23:28,665 INFO (WordController.java:89)- page method: pn:1,word:
+2018-11-28 10:23:28,668 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 10:23:28,669 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 10:23:28,672 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 10:23:28,673 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 10:23:28,674 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 10:23:28,677 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 10:23:41,145 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 10:23:41,145 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: are(String), is(String), aaa(String)
+2018-11-28 10:23:41,147 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 10:23:50,473 INFO (WordController.java:89)- page method: pn:1,word:
+2018-11-28 10:23:50,476 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 10:23:50,477 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 10:23:50,479 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 10:23:50,481 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 10:23:50,482 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 10:23:50,485 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 10:24:07,527 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 10:24:07,528 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: are(String), is(String), aaa(String)
+2018-11-28 10:24:07,533 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 10:24:54,281 INFO (WordController.java:89)- page method: pn:1,word:
+2018-11-28 10:24:54,283 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 10:24:54,284 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 10:24:54,286 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 10:24:54,287 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 10:24:54,288 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 10:24:54,290 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 10:25:00,119 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 10:25:00,120 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: are(String), is(String), aaa(String)
+2018-11-28 10:25:00,122 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 10:25:23,287 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 10:25:23,288 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: are(String), is(String), aaa(String)
+2018-11-28 10:25:23,290 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 10:26:13,421 INFO (WordController.java:89)- page method: pn:1,word:
+2018-11-28 10:26:13,424 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 10:26:13,425 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 10:26:13,427 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 10:26:13,430 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 10:26:13,431 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 10:26:13,436 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 10:26:14,325 INFO (WordController.java:89)- page method: pn:1,word:
+2018-11-28 10:26:14,329 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 10:26:14,330 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 10:26:14,333 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 10:26:14,335 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 10:26:14,336 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 10:26:14,338 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 10:26:26,392 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 10:26:26,393 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: are(String), is(String), aaa(String)
+2018-11-28 10:26:26,394 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 10:26:30,886 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 10:26:30,886 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: are(String), is(String), aaa(String)
+2018-11-28 10:26:30,888 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 10:26:54,569 INFO (WordController.java:89)- page method: pn:1,word:
+2018-11-28 10:26:54,571 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 10:26:54,572 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 10:26:54,574 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 10:26:54,576 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 10:26:54,577 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 10:26:54,581 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 10:27:01,156 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 10:27:01,157 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: are(String), is(String), aaa(String)
+2018-11-28 10:27:01,158 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 12:46:12,925 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 12:46:12,932 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 12:46:12,932 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 12:46:12,980 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 12:46:12,981 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 12:46:12,982 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 12:46:12,984 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 12:46:19,339 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 12:46:19,340 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: are(String), is(String), aaa(String)
+2018-11-28 12:46:19,341 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 12:46:38,265 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 12:46:38,265 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 122(String), dfww(String), aaa(String)
+2018-11-28 12:46:38,266 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-11-28 12:46:38,273 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,iskeyword,sentence) values (?,?, ?,?) , (?,?, ?,?) , (?,?, ?,?) 
+2018-11-28 12:46:38,276 ERROR (WordController.java:117)- org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'iskeyword' in 'class com.kjw.bean.Word'
+2018-11-28 12:48:09,878 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 11752 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 12:48:09,883 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 12:48:09,885 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 12:48:12,464 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 3.734 seconds (JVM running for 5.33)
+2018-11-28 12:48:17,697 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 12:48:18,141 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 12:48:18,200 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 12:48:18,242 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 12:48:18,248 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 12:48:18,249 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 12:48:18,256 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 12:48:24,279 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 12:48:24,280 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 122(String), dfww(String), aaa(String)
+2018-11-28 12:48:24,281 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-11-28 12:48:24,287 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,root,coreword,sentence) values (?,?,?, ?,?) , (?,?,?, ?,?) , (?,?,?, ?,?) 
+2018-11-28 12:48:24,289 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 122(String), 11(String), a(String), aaa(String), afefe(String), dfww(String), 233(String), b(String), bbb(String), thgtrgr(String), aaa(String), (String), (String), (String), (String)
+2018-11-28 12:48:24,348 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 12:48:25,728 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 12:48:25,731 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 12:48:25,733 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 12:48:25,735 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 12:48:25,736 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 12:48:25,737 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 12:48:25,739 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 12:48:28,596 INFO (WordController.java:88)- page method: pn:2,word:
+2018-11-28 12:48:28,599 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 12:48:28,599 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 12:48:28,601 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 12:48:28,602 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word LIMIT ?, ? 
+2018-11-28 12:48:28,603 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer), 3(Integer)
+2018-11-28 12:48:28,606 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 12:48:30,470 INFO (WordController.java:88)- page method: pn:3,word:
+2018-11-28 12:48:30,474 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 12:48:30,476 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 12:48:30,479 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 12:48:30,482 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word LIMIT ?, ? 
+2018-11-28 12:48:30,483 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 6(Integer), 3(Integer)
+2018-11-28 12:48:30,485 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 12:51:06,309 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 10532 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 12:51:06,318 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 12:51:06,320 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 12:51:10,207 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 5.348 seconds (JVM running for 6.965)
+2018-11-28 12:52:59,187 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 1168 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 12:52:59,191 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 12:52:59,194 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 12:53:02,020 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 4.122 seconds (JVM running for 5.765)
+2018-11-28 12:53:19,252 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 10728 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 12:53:19,257 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 12:53:19,260 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 12:53:22,444 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 4.162 seconds (JVM running for 5.787)
+2018-11-28 12:54:15,598 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 8984 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 12:54:15,603 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 12:54:15,608 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 12:54:20,138 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 6.078 seconds (JVM running for 7.677)
+2018-11-28 12:54:25,880 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 12:54:26,163 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 12:54:26,192 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 12:54:26,235 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 12:54:41,367 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 12:54:41,368 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 122(String), dfww(String), aaa(String)
+2018-11-28 12:54:41,370 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-11-28 12:54:41,376 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,root,coreword,sentence) values (?,?,?, ?,?) , (?,?,?, ?,?) , (?,?,?, ?,?) 
+2018-11-28 12:54:41,378 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 122(String), 11(String), a(String), aaa(String), afefe(String), dfww(String), 233(String), b(String), bbb(String), thgtrgr(String), aaa(String), (String), (String), (String), (String)
+2018-11-28 12:54:41,397 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 12:54:42,877 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 12:54:42,881 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 12:54:42,882 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 12:54:42,885 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 12:54:42,889 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 12:54:42,890 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 12:54:42,893 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 13:26:03,536 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 10252 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 13:26:03,542 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 13:26:03,544 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 13:26:07,579 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 5.699 seconds (JVM running for 7.172)
+2018-11-28 13:26:27,860 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:26:28,192 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:26:28,221 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:26:28,283 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:26:28,286 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:26:28,287 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:26:28,290 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 13:27:38,274 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 11240 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 13:27:38,279 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 13:27:38,281 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 13:27:41,024 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 4.003 seconds (JVM running for 5.486)
+2018-11-28 13:27:44,451 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:27:44,494 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:27:44,540 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:28:44,218 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:28:44,331 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:28:44,332 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:28:44,335 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:28:44,340 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:28:44,342 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:28:44,345 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 13:28:45,090 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:28:45,092 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:28:45,093 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:28:45,096 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:28:45,097 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:28:45,098 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:28:45,100 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 13:28:46,380 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:28:46,383 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:28:46,388 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:29:37,886 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:29:37,889 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:29:37,890 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:29:37,900 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:29:37,902 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:29:37,903 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:29:37,905 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 13:29:38,025 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:29:38,027 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:29:38,027 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:29:38,029 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:29:38,030 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:29:38,031 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:29:38,035 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 13:29:38,179 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:29:38,181 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:29:38,182 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:29:38,184 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:29:38,186 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:29:38,187 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:29:38,190 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 13:29:39,795 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:29:39,797 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:29:39,801 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:29:47,493 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:29:47,495 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:29:47,498 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:31:29,377 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:31:29,380 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:31:29,381 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:31:29,384 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:31:29,387 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:31:29,391 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:31:29,399 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 13:31:29,804 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:31:29,807 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:31:29,809 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:31:29,811 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:31:29,812 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:31:29,813 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:31:29,816 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 13:31:30,921 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:31:30,922 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:31:30,923 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:31:52,555 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:31:52,557 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:31:52,561 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:32:16,321 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:32:16,325 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:32:16,326 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:32:16,329 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:32:16,331 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:32:16,332 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:32:16,336 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 13:32:17,528 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:32:17,532 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:32:17,533 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:32:17,535 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:32:17,536 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:32:17,537 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:32:17,543 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 13:32:18,658 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:32:18,664 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:32:18,667 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:32:31,452 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:32:31,453 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:32:31,455 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:32:59,756 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:32:59,759 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:32:59,760 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:32:59,762 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:32:59,763 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:32:59,764 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:32:59,766 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 13:33:00,927 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:33:00,928 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:33:00,930 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:33:12,229 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:33:12,231 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:33:12,232 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:33:22,762 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:33:22,763 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:33:22,768 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:33:59,249 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:33:59,251 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:33:59,252 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:33:59,254 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:33:59,255 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:33:59,256 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:33:59,258 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 13:34:00,258 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:34:00,259 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:34:00,265 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:34:04,053 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update word set word = ?, chinese = ?, root = ?, coreword = ?, sentence = ? where id = ? 
+2018-11-28 13:34:04,055 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 2a(String), 3a(String), 4a(String), 222(String), 1(Integer)
+2018-11-28 13:34:56,111 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:34:56,113 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:34:56,121 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:34:59,742 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update word SET chinese = ?, root = ?, coreword = ?, sentence = ? where id = ? 
+2018-11-28 13:34:59,743 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2a(String), 3a(String), 4a(String), 1aafe333(String), 1(Integer)
+2018-11-28 13:34:59,777 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-11-28 13:34:59,790 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:34:59,792 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:34:59,792 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:34:59,793 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:34:59,794 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:34:59,795 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:34:59,798 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-11-28 13:35:01,417 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:35:01,418 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:35:01,421 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:35:06,787 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: delete from word where id = ? 
+2018-11-28 13:35:06,788 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-28 13:35:06,811 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-11-28 13:35:06,820 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:35:06,824 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:35:06,825 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:35:06,831 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:35:06,832 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:35:06,832 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:35:06,834 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:35:14,296 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:35:14,305 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:35:14,305 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:35:14,308 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:35:14,309 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:35:14,310 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:35:14,311 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:35:14,681 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:35:14,683 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:35:14,684 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:35:14,686 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:35:14,687 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:35:14,689 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:35:14,690 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:35:21,449 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 13:35:21,450 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 122(String), dfww(String), aaa(String)
+2018-11-28 13:35:21,451 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-11-28 13:35:21,458 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,iskeyword,sentence) values (?,?, ?,?) , (?,?, ?,?) , (?,?, ?,?) 
+2018-11-28 13:35:21,461 ERROR (WordController.java:117)- org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'iskeyword' in 'class com.kjw.bean.Word'
+2018-11-28 13:36:16,663 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 8552 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 13:36:16,668 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 13:36:16,671 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 13:36:20,679 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 5.62 seconds (JVM running for 7.544)
+2018-11-28 13:36:25,924 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word WHERE ( word in ( ? , ? , ? ) ) 
+2018-11-28 13:36:25,957 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 122(String), dfww(String), aaa(String)
+2018-11-28 13:36:26,003 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-11-28 13:36:26,021 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 13:36:26,024 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 122(String), 11(String), aaa(String), a(String), afefe(String), dfww(String), 233(String), bbb(String), b(String), thgtrgr(String), aaa(String), (String), (String), (String), (String)
+2018-11-28 13:36:26,133 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 13:36:28,928 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:36:28,980 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:36:28,981 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:36:28,985 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:36:28,991 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:36:28,992 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:36:28,997 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2018-11-28 13:36:33,956 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:36:33,958 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2018-11-28 13:36:33,963 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:36:39,462 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:36:39,464 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2018-11-28 13:36:39,469 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:36:42,396 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update word SET chinese = ?, root = ?, coreword = ?, sentence = ? where id = ? 
+2018-11-28 13:36:42,397 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 233(String), b111(String), bbb(String), thgtrgr(String), 4(Integer)
+2018-11-28 13:36:42,430 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-11-28 13:36:42,448 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:36:42,453 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:36:42,454 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:36:42,455 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:36:42,456 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:36:42,456 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:36:42,458 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2018-11-28 13:36:44,418 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word where id = ? 
+2018-11-28 13:36:44,419 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 4(Integer)
+2018-11-28 13:36:44,421 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:36:50,106 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update word SET chinese = ?, root = ?, coreword = ?, sentence = ? where id = ? 
+2018-11-28 13:36:50,108 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2333dd(String), b111(String), bbb(String), thgtrgr(String), 4(Integer)
+2018-11-28 13:36:50,122 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-11-28 13:36:50,134 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:36:50,135 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:36:50,136 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:36:50,138 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:36:50,139 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:36:50,139 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:36:50,140 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2018-11-28 13:36:55,241 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: delete from word where id = ? 
+2018-11-28 13:36:55,243 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 5(Integer)
+2018-11-28 13:36:55,264 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-11-28 13:36:55,278 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 13:36:55,280 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 13:36:55,281 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:36:55,285 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:36:55,287 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence from word LIMIT ? 
+2018-11-28 13:36:55,288 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 13:36:55,301 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 13:44:24,790 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 3944 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 13:44:24,794 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 13:44:24,797 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 13:44:28,865 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 5.205 seconds (JVM running for 6.879)
+2018-11-28 13:44:32,088 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:44:32,132 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:45:11,517 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 7672 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 13:45:11,522 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 13:45:11,524 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 13:45:14,164 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 3.809 seconds (JVM running for 5.372)
+2018-11-28 13:45:16,915 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:45:16,949 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:45:17,002 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:46:45,287 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:46:45,290 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:46:45,298 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:46:59,761 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:46:59,763 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:46:59,766 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:47:00,421 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:47:00,422 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:47:00,425 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:47:01,069 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:47:01,070 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:47:01,073 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:47:01,694 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:47:01,695 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:47:01,699 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:47:02,452 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:47:02,453 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:47:02,456 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:47:03,077 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:47:03,078 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:47:03,081 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:47:03,674 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:47:03,674 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:47:03,677 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:47:44,481 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:47:44,482 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:47:44,483 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:47:45,431 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:47:45,432 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:47:45,442 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:47:50,171 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:47:50,172 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:47:50,175 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:47:50,618 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:47:50,619 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:47:50,622 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:48:37,655 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:48:37,657 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:48:37,659 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:48:38,876 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:48:38,877 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:48:38,881 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:48:58,593 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:48:58,596 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:48:58,605 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:48:59,360 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:48:59,361 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:48:59,364 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:49:11,613 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:49:11,614 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:49:11,617 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:50:18,263 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:50:18,264 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:50:18,267 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:50:19,366 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:50:19,367 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:50:19,369 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:50:20,016 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:50:20,017 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:50:20,019 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:50:34,854 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:50:34,855 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:50:34,857 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:50:41,021 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:50:41,022 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:50:41,024 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:50:52,436 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:50:52,437 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:50:52,439 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:50:53,590 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:50:53,591 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:50:53,595 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:52:11,357 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:52:11,359 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:52:11,364 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:52:12,051 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:52:12,052 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:52:12,055 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:52:12,843 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:52:12,843 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:52:12,845 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:52:14,019 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:52:14,020 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:52:14,021 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:52:14,256 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:52:14,257 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:52:14,258 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:52:14,508 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:52:14,508 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:52:14,510 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:52:14,739 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:52:14,739 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:52:14,741 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:52:22,800 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:52:22,801 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:52:22,803 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:52:23,327 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:52:23,328 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:52:23,330 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:52:23,952 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:52:23,953 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:52:23,955 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:53:39,513 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:53:39,516 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:53:39,518 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:53:40,193 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:53:40,194 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:53:40,197 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:53:46,867 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:53:46,869 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:53:46,871 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:53:47,502 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:53:47,503 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:53:47,505 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:54:03,491 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:54:03,492 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:54:03,494 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:54:18,361 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:54:18,362 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:54:18,365 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:54:18,972 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:54:18,973 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:54:18,975 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:54:19,409 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:54:19,409 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:54:19,411 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:56:18,404 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:56:18,405 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:56:18,407 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:56:19,066 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:56:19,067 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:56:19,069 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:56:36,624 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:56:36,625 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:56:36,627 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 13:59:37,122 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 13:59:37,123 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 13:59:37,124 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:01:43,866 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:01:43,867 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:01:43,869 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:01:45,146 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:01:45,147 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:01:45,149 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:04:34,259 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:04:34,260 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:04:34,263 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:04:46,268 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:04:46,269 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:04:46,271 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:05:16,084 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:05:16,084 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:05:16,089 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:05:16,810 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:05:16,811 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:05:16,813 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:05:30,711 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:05:30,712 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:05:30,714 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:05:31,313 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:05:31,314 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:05:31,316 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:05:48,353 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:05:48,358 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:05:48,360 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:06:03,278 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:06:03,278 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:06:03,282 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:06:03,902 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:06:03,903 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:06:03,905 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:06:04,421 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:06:04,422 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:06:04,424 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:07:52,425 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:07:52,426 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:07:52,431 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:07:52,455 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:07:52,455 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:07:52,461 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:07:53,056 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:07:53,058 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:07:53,060 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:07:53,063 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:07:53,063 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:07:53,065 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:08:04,062 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:08:04,062 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:08:04,065 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:08:04,070 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:08:04,070 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:08:04,075 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:08:12,612 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:08:12,613 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:08:12,615 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:08:12,620 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:08:12,621 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:08:12,623 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:08:13,076 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:08:13,076 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:08:13,078 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:08:13,085 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:08:13,085 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:08:13,087 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:08:13,369 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:08:13,384 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:08:13,386 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:08:13,397 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:08:13,397 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:08:13,401 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:09,925 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:09,925 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:09,927 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:09,934 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:09,935 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:09,937 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:36,837 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:36,838 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:36,840 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:36,843 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:36,843 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:36,846 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:36,977 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:36,978 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:36,980 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:36,983 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:36,983 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:36,985 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:37,105 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:37,106 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:37,109 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:37,113 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:37,114 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:37,116 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:37,269 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:37,270 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:37,272 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:37,275 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:37,276 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:37,277 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:57,056 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:57,057 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:57,066 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:57,235 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:57,239 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:57,242 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:57,272 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:57,273 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:57,275 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:57,352 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:57,353 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:57,355 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:57,415 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:57,416 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:57,422 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:57,438 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:57,439 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:57,503 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:57,531 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:57,532 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:57,536 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:57,546 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:57,547 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:57,549 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:57,648 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:57,649 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:57,651 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:57,655 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:57,656 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:57,659 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:57,785 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:57,786 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:57,788 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:57,793 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:57,794 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:57,797 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:57,948 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:57,949 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:57,950 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:10:57,955 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:10:57,955 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:10:57,959 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:16,503 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:16,504 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:16,506 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:16,515 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:16,517 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:16,519 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:16,926 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:16,927 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:16,929 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:16,937 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:16,937 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:16,939 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:17,497 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:17,498 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:17,500 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:17,506 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:17,513 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:17,515 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:41,214 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:41,214 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:41,217 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:41,371 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:41,373 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:41,375 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:41,537 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:41,538 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:41,542 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:42,323 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:42,324 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:42,325 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:42,826 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:42,827 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:42,828 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:43,076 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:43,077 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:43,078 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:43,259 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:43,259 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:43,261 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:43,445 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:43,446 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:43,448 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:11:43,639 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:11:43,640 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:11:43,643 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:13:01,591 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:13:01,592 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:13:01,594 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:13:01,756 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:13:01,757 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:13:01,758 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:13:01,893 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:13:01,894 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:13:01,896 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:13:02,091 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:13:02,091 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:13:02,094 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:13:02,594 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:13:02,595 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:13:02,597 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:13:03,079 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:13:03,080 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:13:03,082 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:13:27,295 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:13:27,296 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:13:27,298 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:13:47,693 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:13:47,693 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:13:47,695 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:13:52,602 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:13:52,603 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:13:52,604 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:14:08,219 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:14:08,220 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:14:08,226 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:18:46,375 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:18:46,376 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:18:46,458 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:18:50,271 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:18:50,272 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:18:50,274 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:19:13,949 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:19:13,950 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:19:13,952 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:19:14,047 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:19:14,047 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:19:14,050 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:19:14,163 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:19:14,164 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:19:14,167 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:19:14,311 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:19:14,312 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:19:14,314 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:19:14,499 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:19:14,500 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:19:14,504 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:19:14,758 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:19:14,761 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:19:14,765 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 14:19:16,800 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 14:19:16,802 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 14:19:16,804 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:36:17,822 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 8752 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 16:36:17,827 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 16:36:17,829 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 16:37:35,215 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 7760 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 16:37:35,220 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 16:37:35,222 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 16:37:38,123 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 4.097 seconds (JVM running for 5.669)
+2018-11-28 16:37:41,739 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 16:37:41,786 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:37:41,874 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:37:44,347 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 16:37:44,348 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:37:44,355 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:37:45,024 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 16:37:45,027 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:37:45,034 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:37:45,514 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 16:37:45,515 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:37:45,516 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:37:46,024 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 16:37:46,026 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:37:46,032 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:37:51,201 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 16:37:51,287 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 16:37:51,287 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:37:51,289 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:37:51,292 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word LIMIT ? 
+2018-11-28 16:37:51,293 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 16:37:51,295 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 16:37:53,408 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word where id = ? 
+2018-11-28 16:37:53,409 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 16:37:53,411 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:37:57,139 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update word SET chinese = ?, root = ?, coreword = ?, sentence = ?, note = ? where id = ? 
+2018-11-28 16:37:57,140 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), a(String), aaa(String), afefe(String), 3sss(String), 3(Integer)
+2018-11-28 16:37:57,156 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-11-28 16:37:57,166 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 16:37:57,168 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 16:37:57,169 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:37:57,171 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:37:57,171 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word LIMIT ? 
+2018-11-28 16:37:57,172 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 16:37:57,174 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-11-28 16:37:58,291 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word where id = ? 
+2018-11-28 16:37:58,292 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2018-11-28 16:37:58,294 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:57:27,770 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 8232 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 16:57:27,773 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 16:57:27,775 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 16:57:30,509 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 3.771 seconds (JVM running for 5.476)
+2018-11-28 16:57:42,623 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 16:57:42,897 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 16:57:42,925 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:57:42,970 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:58:13,112 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word WHERE ( word in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) 
+2018-11-28 16:58:13,114 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: province(String), province-wide(String), provincial(String), provincially(String), provinciality(String), provincialism(String), victor(String), victory(String), victorious(String), victoriously(String), Victorian(String), Victorian-era(String), Victorian-style(String), late-Victorian(String), neo-Victorian(String), victim(String), victimless(String), victimize(String), victimized(String), victimization(String), victimizer(String), convince(String), convinced(String), unconvinced(String), convincing(String), unconvincing(String), convincingly(String), unconvincingly(String), convict(String), ex-convict(String), post-conviction(String), evict(String), eviction(String), evicted(String), evince(String), evincible(String), evincive(String), vincible(String), invincible(String), invincibility(String), vincristine(String)
+2018-11-28 16:58:13,116 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-11-28 16:58:13,122 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 16:58:13,123 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: province(String), 省；领域；职权(String), province(String), vinc(String), null, province-wide(String), adj. 全省的adv. 全省地(String), province(String), vinc(String), null, provincial(String), adj. 省的；地方性的n. 乡下人；外地人(String), province(String), vinc(String), null
+2018-11-28 16:58:13,133 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 16:58:13,135 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 16:58:13,137 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: provincially(String), adv. 以地方；偏狭地(String), province(String), vinc(String), null, provinciality(String), n. 乡下习气；粗鄙，偏狭；地方特色(String), province(String), vinc(String), null, provincialism(String), n. 方言；地方风格；乡下习气(String), province(String), vinc(String), null
+2018-11-28 16:58:13,140 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 16:58:13,142 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 16:58:13,143 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: victor(String), n. 胜利者(String), victor(String), vict(String), null, victory(String), n. 胜利；成功；克服(String), victor(String), vict(String), null, victorious(String), adj. 胜利的；凯旋的(String), victor(String), vict(String), null
+2018-11-28 16:58:13,146 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 16:58:13,147 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 16:58:13,149 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: victoriously(String), adv. 获胜地；凯旋归来地(String), victor(String), vict(String), null, Victorian(String), adj. 维多利亚女王时代的n. 维多利亚时代(String), victor(String), vict(String), null, Victorian-era(String), n. 维多利亚时代(String), victor(String), vict(String), null
+2018-11-28 16:58:13,153 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 16:58:13,155 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 16:58:13,156 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: Victorian-style(String), n. 维多利亚风格(String), victor(String), vict(String), null, late-Victorian(String), adj.维多利亚晚期(String), victor(String), vict(String), null, neo-Victorian(String), adj. 新维多利亚的(String), victor(String), vict(String), null
+2018-11-28 16:58:13,158 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 16:58:13,159 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 16:58:13,162 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: victim(String), n. 受害者(String), victim(String), vict(String), null, victimless(String), adj. 不侵害他人的，无受害人的（犯罪行为等）(String), victim(String), vict(String), null, victimize(String), vt. 使受害；使牺牲；欺骗(String), victim(String), vict(String), null
+2018-11-28 16:58:13,165 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 16:58:13,166 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 16:58:13,166 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: victimized(String), vt. 使受害；使牺牲；欺骗(String), victim(String), vict(String), null, victimization(String), n. 牺牲；欺骗(String), victim(String), vict(String), null, victimizer(String), n. 施害者(String), victim(String), vict(String), null
+2018-11-28 16:58:13,169 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 16:58:13,170 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 16:58:13,171 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: convince(String), vt. 说服；使确信(String), convince(String), vinc(String), null, convinced(String), adj. 确信的，信服的(String), convince(String), vinc(String), null, unconvinced(String), adj. 不信服的；怀疑的(String), convince(String), vinc(String), null
+2018-11-28 16:58:13,175 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 16:58:13,176 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 16:58:13,177 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: convincing(String), adj. 令人信服的；有说服力的(String), convince(String), vinc(String), null, unconvincing(String), adj. 不足以令人相信的(String), convince(String), vinc(String), null, convincingly(String), adv. 令人信服地；有说服力地(String), convince(String), vinc(String), null
+2018-11-28 16:58:13,208 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 16:58:13,210 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 16:58:13,213 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: unconvincingly(String), adv. 缺乏说服力地；无法令人信服地(String), convince(String), vinc(String), null, convict(String), n. 囚犯vt. 证明…有罪；宣告…有罪(String), convict(String), vict(String), null, ex-convict(String), n. 从前曾被判刑的人；[法] 前科犯(String), convict(String), vict(String), null
+2018-11-28 16:58:13,218 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 16:58:13,222 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 16:58:13,223 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: post-conviction(String), n. 定罪后(String), convict(String), vict(String), null, evict(String), vt. 驱逐；逐出(String), evict(String), vict(String), null, eviction(String), n. 逐出；赶出；收回(String), evict(String), vict(String), null
+2018-11-28 16:58:13,229 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 16:58:13,232 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 16:58:13,235 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: evicted(String), adj. 被驱逐的(String), evict(String), vict(String), null, evince(String), vt. 表明，表示；引起(String), evince(String), vinc(String), null, evincible(String), adj.可表明的(String), evince(String), vinc(String), null
+2018-11-28 16:58:13,238 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 16:58:13,241 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 16:58:13,242 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: evincive(String), adj. 显示的；证明性的；表明的(String), evince(String), vinc(String), null, vincible(String), adj. 可征服的，易克服的(String), vincible(String), vinc(String), null, invincible(String), adj. 无敌的；不能征服的(String), vincible(String), vinc(String), null
+2018-11-28 16:58:13,245 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 16:58:13,247 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 16:58:13,249 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: invincibility(String), n. 无敌；不可战胜(String), vincible(String), vinc(String), null, vincristine(String), n. [药] 长春新碱（一种抗肿瘤药）(String), (String), vinc(String), null
+2018-11-28 16:58:13,253 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 2
+2018-11-28 16:58:14,541 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 16:58:14,543 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 16:58:14,543 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:58:14,545 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:58:14,550 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word LIMIT ? 
+2018-11-28 16:58:14,551 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 16:58:14,556 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-28 16:58:18,352 INFO (WordController.java:88)- page method: pn:2,word:
+2018-11-28 16:58:18,362 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 16:58:18,363 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:58:18,365 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:58:18,366 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word LIMIT ?, ? 
+2018-11-28 16:58:18,366 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer), 10(Integer)
+2018-11-28 16:58:18,371 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-28 16:58:19,437 INFO (WordController.java:88)- page method: pn:3,word:
+2018-11-28 16:58:19,441 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 16:58:19,443 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:58:19,445 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:58:19,446 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word LIMIT ?, ? 
+2018-11-28 16:58:19,447 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 20(Integer), 10(Integer)
+2018-11-28 16:58:19,450 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-28 16:58:20,271 INFO (WordController.java:88)- page method: pn:5,word:
+2018-11-28 16:58:20,276 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 16:58:20,277 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:58:20,280 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:58:20,282 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word LIMIT ?, ? 
+2018-11-28 16:58:20,284 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 40(Integer), 10(Integer)
+2018-11-28 16:58:20,285 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:58:23,434 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 16:58:23,436 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 16:58:23,436 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:58:23,437 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:58:23,438 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word LIMIT ? 
+2018-11-28 16:58:23,439 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 16:58:23,441 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-28 16:58:24,861 INFO (WordController.java:88)- page method: pn:3,word:
+2018-11-28 16:58:24,868 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 16:58:24,869 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:58:24,871 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:58:24,874 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word LIMIT ?, ? 
+2018-11-28 16:58:24,875 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 20(Integer), 10(Integer)
+2018-11-28 16:58:24,878 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-28 16:58:26,098 INFO (WordController.java:88)- page method: pn:4,word:
+2018-11-28 16:58:26,101 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 16:58:26,103 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:58:26,105 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:58:26,106 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word LIMIT ?, ? 
+2018-11-28 16:58:26,107 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 30(Integer), 10(Integer)
+2018-11-28 16:58:26,112 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-28 16:58:27,676 INFO (WordController.java:88)- page method: pn:5,word:
+2018-11-28 16:58:27,679 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 16:58:27,680 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:58:27,683 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:58:27,686 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word LIMIT ?, ? 
+2018-11-28 16:58:27,687 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 40(Integer), 10(Integer)
+2018-11-28 16:58:27,694 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:58:29,422 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 16:58:29,426 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 16:58:29,427 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:58:29,430 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:58:29,432 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word LIMIT ? 
+2018-11-28 16:58:29,433 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 16:58:29,435 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-28 16:58:37,347 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 16:58:37,348 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:58:37,352 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:58:41,908 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 16:58:41,910 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:58:41,914 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:58:51,039 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 16:58:51,063 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:58:51,066 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:59:16,994 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 16:59:16,995 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:59:16,997 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:59:17,219 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 16:59:17,220 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:59:17,226 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 16:59:17,442 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 16:59:17,443 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 16:59:17,445 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 17:01:36,883 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word WHERE ( word in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) 
+2018-11-28 17:01:36,885 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: province(String), province-wide(String), provincial(String), provincially(String), provinciality(String), provincialism(String), victor(String), victory(String), victorious(String), victoriously(String), Victorian(String), Victorian-era(String), Victorian-style(String), late-Victorian(String), neo-Victorian(String), victim(String), victimless(String), victimize(String), victimized(String), victimization(String), victimizer(String), convince(String), convinced(String), unconvinced(String), convincing(String), unconvincing(String), convincingly(String), unconvincingly(String), convict(String), ex-convict(String), post-conviction(String), evict(String), eviction(String), evicted(String), evince(String), evincible(String), evincive(String), vincible(String), invincible(String), invincibility(String), vincristine(String)
+2018-11-28 17:01:36,887 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-11-28 17:01:36,888 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 17:01:36,890 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: province(String), 省；领域；职权(String), province(String), vinc(String), null, province-wide(String), adj. 全省的adv. 全省地(String), province(String), vinc(String), null, provincial(String), adj. 省的；地方性的n. 乡下人；外地人(String), province(String), vinc(String), null
+2018-11-28 17:01:36,965 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:01:36,967 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 17:01:36,968 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: provincially(String), adv. 以地方；偏狭地(String), province(String), vinc(String), null, provinciality(String), n. 乡下习气；粗鄙，偏狭；地方特色(String), province(String), vinc(String), null, provincialism(String), n. 方言；地方风格；乡下习气(String), province(String), vinc(String), null
+2018-11-28 17:01:36,972 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:01:36,973 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 17:01:36,975 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: victor(String), n. 胜利者(String), victor(String), vict(String), null, victory(String), n. 胜利；成功；克服(String), victor(String), vict(String), null, victorious(String), adj. 胜利的；凯旋的(String), victor(String), vict(String), null
+2018-11-28 17:01:36,978 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:01:36,979 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 17:01:36,980 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: victoriously(String), adv. 获胜地；凯旋归来地(String), victor(String), vict(String), null, Victorian(String), adj. 维多利亚女王时代的n. 维多利亚时代(String), victor(String), vict(String), null, Victorian-era(String), n. 维多利亚时代(String), victor(String), vict(String), null
+2018-11-28 17:01:37,023 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:01:37,024 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 17:01:37,025 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: Victorian-style(String), n. 维多利亚风格(String), victor(String), vict(String), null, late-Victorian(String), adj.维多利亚晚期(String), victor(String), vict(String), null, neo-Victorian(String), adj. 新维多利亚的(String), victor(String), vict(String), null
+2018-11-28 17:01:37,028 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:01:37,029 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 17:01:37,029 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: victim(String), n. 受害者(String), victim(String), vict(String), null, victimless(String), adj. 不侵害他人的，无受害人的（犯罪行为等）(String), victim(String), vict(String), null, victimize(String), vt. 使受害；使牺牲；欺骗(String), victim(String), vict(String), null
+2018-11-28 17:01:37,032 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:01:37,033 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 17:01:37,034 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: victimized(String), vt. 使受害；使牺牲；欺骗(String), victim(String), vict(String), null, victimization(String), n. 牺牲；欺骗(String), victim(String), vict(String), null, victimizer(String), n. 施害者(String), victim(String), vict(String), null
+2018-11-28 17:01:37,050 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:01:37,051 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 17:01:37,052 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: convince(String), vt. 说服；使确信(String), convince(String), vinc(String), null, convinced(String), adj. 确信的，信服的(String), convince(String), vinc(String), null, unconvinced(String), adj. 不信服的；怀疑的(String), convince(String), vinc(String), null
+2018-11-28 17:01:37,054 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:01:37,055 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 17:01:37,056 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: convincing(String), adj. 令人信服的；有说服力的(String), convince(String), vinc(String), null, unconvincing(String), adj. 不足以令人相信的(String), convince(String), vinc(String), null, convincingly(String), adv. 令人信服地；有说服力地(String), convince(String), vinc(String), null
+2018-11-28 17:01:37,058 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:01:37,059 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 17:01:37,060 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: unconvincingly(String), adv. 缺乏说服力地；无法令人信服地(String), convince(String), vinc(String), null, convict(String), n. 囚犯vt. 证明…有罪；宣告…有罪(String), convict(String), vict(String), null, ex-convict(String), n. 从前曾被判刑的人；[法] 前科犯(String), convict(String), vict(String), null
+2018-11-28 17:01:37,063 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:01:37,064 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 17:01:37,065 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: post-conviction(String), n. 定罪后(String), convict(String), vict(String), null, evict(String), vt. 驱逐；逐出(String), evict(String), vict(String), null, eviction(String), n. 逐出；赶出；收回(String), evict(String), vict(String), null
+2018-11-28 17:01:37,067 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:01:37,068 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 17:01:37,069 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: evicted(String), adj. 被驱逐的(String), evict(String), vict(String), null, evince(String), vt. 表明，表示；引起(String), evince(String), vinc(String), null, evincible(String), adj.可表明的(String), evince(String), vinc(String), null
+2018-11-28 17:01:37,086 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:01:37,087 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 17:01:37,088 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: evincive(String), adj. 显示的；证明性的；表明的(String), evince(String), vinc(String), null, vincible(String), adj. 可征服的，易克服的(String), vincible(String), vinc(String), null, invincible(String), adj. 无敌的；不能征服的(String), vincible(String), vinc(String), null
+2018-11-28 17:01:37,090 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:01:37,091 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,coreword,root,sentence) values (?,?, ?,?,?) , (?,?, ?,?,?) 
+2018-11-28 17:01:37,092 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: invincibility(String), n. 无敌；不可战胜(String), vincible(String), vinc(String), null, vincristine(String), n. [药] 长春新碱（一种抗肿瘤药）(String), (String), vinc(String), null
+2018-11-28 17:01:37,095 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 2
+2018-11-28 17:01:38,395 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 17:01:38,397 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 17:01:38,398 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 17:01:38,399 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 17:01:38,400 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word LIMIT ? 
+2018-11-28 17:01:38,402 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 17:01:38,404 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-28 17:03:11,964 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 2584 (E:\ideaworkspace\english\target\classes started by seari in E:\ideaworkspace\english)
+2018-11-28 17:03:11,968 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-28 17:03:11,971 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-28 17:03:14,925 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 4.146 seconds (JVM running for 5.763)
+2018-11-28 17:03:17,708 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 17:03:18,050 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 17:03:18,086 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 17:03:18,120 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 17:03:23,217 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word WHERE ( word in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) 
+2018-11-28 17:03:23,219 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: province(String), province-wide(String), provincial(String), provincially(String), provinciality(String), provincialism(String), victor(String), victory(String), victorious(String), victoriously(String), Victorian(String), Victorian-era(String), Victorian-style(String), late-Victorian(String), neo-Victorian(String), victim(String), victimless(String), victimize(String), victimized(String), victimization(String), victimizer(String), convince(String), convinced(String), unconvinced(String), convincing(String), unconvincing(String), convincingly(String), unconvincingly(String), convict(String), ex-convict(String), post-conviction(String), evict(String), eviction(String), evicted(String), evince(String), evincible(String), evincive(String), vincible(String), invincible(String), invincibility(String), vincristine(String)
+2018-11-28 17:03:23,220 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-11-28 17:03:23,227 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence) values (?,?,?, ?,?,?) , (?,?,?, ?,?,?) , (?,?,?, ?,?,?) 
+2018-11-28 17:03:23,229 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: province(String), 省；领域；职权(String), 【pro-向前+vinc-征服-占有，统治-管理+e名词后缀】(String), province(String), vinc(String), null, province-wide(String), adj. 全省的adv. 全省地(String), 【合成词】(String), province(String), vinc(String), null, provincial(String), adj. 省的；地方性的n. 乡下人；外地人(String), 【province+-i-连字符+-al形容词或名词后缀】(String), province(String), vinc(String), null
+2018-11-28 17:03:23,232 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:03:23,234 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence) values (?,?,?, ?,?,?) , (?,?,?, ?,?,?) , (?,?,?, ?,?,?) 
+2018-11-28 17:03:23,235 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: provincially(String), adv. 以地方；偏狭地(String), 【provincial+ly副词后缀】(String), province(String), vinc(String), null, provinciality(String), n. 乡下习气；粗鄙，偏狭；地方特色(String), 【provincial+-i-连字符+ty名词后缀】(String), province(String), vinc(String), null, provincialism(String), n. 方言；地方风格；乡下习气(String), 【provincial+ism名词后缀，表...主义】(String), province(String), vinc(String), null
+2018-11-28 17:03:23,237 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:03:23,239 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence) values (?,?,?, ?,?,?) , (?,?,?, ?,?,?) , (?,?,?, ?,?,?) 
+2018-11-28 17:03:23,240 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: victor(String), n. 胜利者(String), 【-vict-胜利+ -or(高端人士)==-er(低端人士)名词后缀，表人或物(String), victor(String), vict(String), null, victory(String), n. 胜利；成功；克服(String), 【-vict-胜利+ory名词或形容词后缀】(String), victor(String), vict(String), null, victorious(String), adj. 胜利的；凯旋的(String), 【victor+i连字符+ous形容词后缀(String), victor(String), vict(String), null
+2018-11-28 17:03:23,243 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:03:23,245 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence) values (?,?,?, ?,?,?) , (?,?,?, ?,?,?) , (?,?,?, ?,?,?) 
+2018-11-28 17:03:23,247 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: victoriously(String), adv. 获胜地；凯旋归来地(String), 【victorious +ly副词后缀】(String), victor(String), vict(String), null, Victorian(String), adj. 维多利亚女王时代的n. 维多利亚时代(String), 【Victoria+i连字符+an名词或形容词后缀Asia->Asian;Africa->African;America->American;Europe->European…(String), victor(String), vict(String), null, Victorian-era(String), n. 维多利亚时代(String), 【合成词	ear n.时代】(String), victor(String), vict(String), null
+2018-11-28 17:03:23,261 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:03:23,263 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence) values (?,?,?, ?,?,?) , (?,?,?, ?,?,?) , (?,?,?, ?,?,?) 
+2018-11-28 17:03:23,264 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: Victorian-style(String), n. 维多利亚风格(String), 【合成词】(String), victor(String), vict(String), null, late-Victorian(String), adj.维多利亚晚期(String), 【合成词】(String), victor(String), vict(String), null, neo-Victorian(String), adj. 新维多利亚的(String), 【neo新	合成词】(String), victor(String), vict(String), null
+2018-11-28 17:03:23,267 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:03:23,268 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence) values (?,?,?, ?,?,?) , (?,?,?, ?,?,?) , (?,?,?, ?,?,?) 
+2018-11-28 17:03:23,271 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: victim(String), n. 受害者(String), 【-vict-征服-俘虏-罪人-受害者 + -im 名词后缀，表人】(String), victim(String), vict(String), null, victimless(String), adj. 不侵害他人的，无受害人的（犯罪行为等）(String), 【victim+less形容词后缀，表否定(String), victim(String), vict(String), null, victimize(String), vt. 使受害；使牺牲；欺骗(String), 【victim+ize动词后缀】(String), victim(String), vict(String), null
+2018-11-28 17:03:23,273 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:03:23,275 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence) values (?,?,?, ?,?,?) , (?,?,?, ?,?,?) , (?,?,?, ?,?,?) 
+2018-11-28 17:03:23,275 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: victimized(String), vt. 使受害；使牺牲；欺骗(String), 【victimize+ed形容词后缀，此表过去式和过去分词】(String), victim(String), vict(String), null, victimization(String), n. 牺牲；欺骗(String), 【victimize+-ate+-ion名词后缀==-ation名词(String), victim(String), vict(String), null, victimizer(String), n. 施害者(String), 【victimize+er名词后缀，表人】(String), victim(String), vict(String), null
+2018-11-28 17:03:23,278 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:03:23,279 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence) values (?,?,?, ?,?,?) , (?,?,?, ?,?,?) , (?,?,?, ?,?,?) 
+2018-11-28 17:03:23,280 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: convince(String), vt. 说服；使确信(String), 【con-强调，共同+ vinc-征服-使人信服-说服+ e-名词后缀】(String), convince(String), vinc(String), null, convinced(String), adj. 确信的，信服的(String), 【convince+ed形容词后缀】(String), convince(String), vinc(String), null, unconvinced(String), adj. 不信服的；怀疑的(String), 【un-否定+convinced】(String), convince(String), vinc(String), null
+2018-11-28 17:03:23,298 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:03:23,300 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence) values (?,?,?, ?,?,?) , (?,?,?, ?,?,?) , (?,?,?, ?,?,?) 
+2018-11-28 17:03:23,301 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: convincing(String), adj. 令人信服的；有说服力的(String), 【convinc+ing形容词后缀，表令...的】(String), convince(String), vinc(String), null, unconvincing(String), adj. 不足以令人相信的(String), 【un-否定+convincing】(String), convince(String), vinc(String), null, convincingly(String), adv. 令人信服地；有说服力地(String), 【convincing+ly副词后缀】(String), convince(String), vinc(String), null
+2018-11-28 17:03:23,303 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:03:23,305 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence) values (?,?,?, ?,?,?) , (?,?,?, ?,?,?) , (?,?,?, ?,?,?) 
+2018-11-28 17:03:23,306 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: unconvincingly(String), adv. 缺乏说服力地；无法令人信服地(String), 【un-否定+convincingly】(String), convince(String), vinc(String), null, convict(String), n. 囚犯vt. 证明…有罪；宣告…有罪(String), 【con-强调+ -vict-征服-俘虏-囚犯;宣告...有罪】(String), convict(String), vict(String), null, ex-convict(String), n. 从前曾被判刑的人；[法] 前科犯(String), 【ex-前任+convict(String), convict(String), vict(String), null
+2018-11-28 17:03:23,309 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:03:23,310 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence) values (?,?,?, ?,?,?) , (?,?,?, ?,?,?) , (?,?,?, ?,?,?) 
+2018-11-28 17:03:23,311 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: post-conviction(String), n. 定罪后(String), 【post-后+conviction】(String), convict(String), vict(String), null, evict(String), vt. 驱逐；逐出(String), 【e-向外+-vict-征服-占领-驱逐】(String), evict(String), vict(String), null, eviction(String), n. 逐出；赶出；收回(String), 【evict+ion名词后缀】(String), evict(String), vict(String), null
+2018-11-28 17:03:23,314 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:03:23,315 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence) values (?,?,?, ?,?,?) , (?,?,?, ?,?,?) , (?,?,?, ?,?,?) 
+2018-11-28 17:03:23,316 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: evicted(String), adj. 被驱逐的(String), 【evict+ed形容词后缀】(String), evict(String), vict(String), null, evince(String), vt. 表明，表示；引起(String), 【e向外+-vinc-胜利--表明，显示+e动词后缀】(String), evince(String), vinc(String), null, evincible(String), adj.可表明的(String), 【evince+ible形容词后缀】(String), evince(String), vinc(String), null
+2018-11-28 17:03:23,318 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:03:23,320 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence) values (?,?,?, ?,?,?) , (?,?,?, ?,?,?) , (?,?,?, ?,?,?) 
+2018-11-28 17:03:23,321 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: evincive(String), adj. 显示的；证明性的；表明的(String), 【evince+ive形容词后缀】(String), evince(String), vinc(String), null, vincible(String), adj. 可征服的，易克服的(String), 【vinc征服+-ible=able，形容词后缀，表能...的】(String), vincible(String), vinc(String), null, invincible(String), adj. 无敌的；不能征服的(String), 【in-否定+vincible】(String), vincible(String), vinc(String), null
+2018-11-28 17:03:23,324 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 3
+2018-11-28 17:03:23,325 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence) values (?,?,?, ?,?,?) , (?,?,?, ?,?,?) 
+2018-11-28 17:03:23,326 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: invincibility(String), n. 无敌；不可战胜(String), 【invincible+i连字符+ty名词后缀(String), vincible(String), vinc(String), null, vincristine(String), n. [药] 长春新碱（一种抗肿瘤药）(String), 【-vinc-征服-抗击+rist肿瘤+-ine名词后缀】(String), (String), vinc(String), null
+2018-11-28 17:03:23,329 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 2
+2018-11-28 17:03:24,521 INFO (WordController.java:88)- page method: pn:1,word:
+2018-11-28 17:03:24,523 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-11-28 17:03:24,523 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 17:03:24,525 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 17:03:24,529 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note from word LIMIT ? 
+2018-11-28 17:03:24,530 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-28 17:03:24,536 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-28 17:03:28,888 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 17:03:28,889 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 17:03:28,893 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 17:06:17,914 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 17:06:17,915 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 17:06:17,918 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 17:06:19,272 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 17:06:19,274 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 17:06:19,276 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-28 17:06:26,317 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-11-28 17:06:26,319 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-28 17:06:26,324 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
