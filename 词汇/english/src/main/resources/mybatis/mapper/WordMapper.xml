@@ -9,6 +9,7 @@
     <result column="coreword" jdbcType="VARCHAR" property="coreword" />
     <result column="sentence" jdbcType="VARCHAR" property="sentence" />
     <result column="note" jdbcType="VARCHAR" property="note" />
+       <result column="phonetic" jdbcType="VARCHAR" property="phonetic" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -69,7 +70,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    id, word, chinese, root, coreword, sentence, note
+    id, word, chinese, root, coreword, sentence, note,phonetic
   </sql>
   <select id="selectByExample" parameterType="com.kjw.bean.WordExample" resultMap="BaseResultMap">
     select

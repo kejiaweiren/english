@@ -6,7 +6,7 @@ $(function() {
     $("#coreWordSpan").click(function () {
         $("#coreWord").toggle();
         $("#note").toggle();
-        $("#wordtbody").toggle();
+        $("#rootTable").toggle();
     });
     $("#chineseSpan").click(function () {
         $("#chinese").toggle();
@@ -18,6 +18,9 @@ $(function() {
  * 加载word
  */
 function loadWord(){
+    $(".wordExplain").not("#rootTable").html("");
+    $("#wordtbody").html("");
+    $(".wordExplain").hide();
     $(".wordExplain").hide();
     $.ajax({
         url:"/randomWord",
@@ -28,39 +31,48 @@ function loadWord(){
                 var worddata=data.extend.word;//得到数据
                 $("#word").html("<h1>"+worddata.word+worddata.phonetic+"</h1>");
                 $("#root").html(worddata.root);//词根
-                $("#coreWord").html(worddata.coreword);//核心词
                 var note=""
                 if(worddata.coreword){
                     loadWordsByCoreWord(1,worddata.coreword);//加载核心词相关单词
                 }
                 if(worddata.core){//如果存在核心词对象
-                    note+="---------核心词----------<br/>";
-                    note+=worddata.core.note+"<br/>";
-                    note+=getWordImgHtml(worddata.core.word);
+                    $("#coreWord").html(worddata.core.word+worddata.core.phonetic);//核心词
+                    note+="---------核心词解析----------<br/>";
+                    note+=worddata.core.note+"<br/><div id='corewordimgdiv'></div>";
                     note+="-------------------<br/>";
+                    getWordImgHtml(worddata.core.word,"corewordimgdiv");//这个单词核心词的图片
                 }
                 note+=worddata.note;//解释
                 note+="<br/>";
                 var word=worddata.word;//单词
-                note+=getWordImgHtml(word);
+                note+="<div id='wordimgdiv'></div>";
+                getWordImgHtml(word,"wordimgdiv");//这个单词的图片
                 $("#note").html(note);
                 $("#chinese").html(worddata.chinese);
                 if(worddata.coreword){
                     $("#sentence").html(worddata.sentence);
                 }
+
             }else{
                 alert(data.extend.errMsg);
             }
         }
     });
 }
-function getWordImgHtml(word){
+function getWordImgHtml(word,divid){
     var imageFullPath="/images/"+word+".png";//图片以imageDir//单词名.png来命名
-    if(isHasImg(imageFullPath)){
-        return "<img src='"+imageFullPath+"'/><br/>";
-    }else{
-        return "";
-    }
+    $.ajax({
+        url:imageFullPath,
+        type:"GET",
+        success:function(){
+            $("#"+divid).html("<img src='"+imageFullPath+"'/><br/>");
+        }
+    });
+    // if(isHasImg(imageFullPath)){
+    //     return "<img src='"+imageFullPath+"'/><br/>";
+    // }else{
+    //     return "";
+    // }
 }
 /**
  * 判断是否存在图片
@@ -102,10 +114,7 @@ function loadWordsByCoreWord(pageNum,coreWord){
                 $.each(datas,function (i,word) {
                     datahtml+="<tr>";
                     datahtml+="<td>";
-                    datahtml+=word.word;
-                    datahtml+="</td>";
-                    datahtml+="<td>";
-                    datahtml+=word.root;
+                    datahtml+=word.word+word.phonetic;
                     datahtml+="</td>";
                     datahtml+="<td>";
                     datahtml+=word.chinese;
