@@ -6,6 +6,7 @@ $(function() {
     $("#coreWordSpan").click(function () {
         $("#coreWord").toggle();
         $("#note").toggle();
+        $("#wordtbody").toggle();
     });
     $("#chineseSpan").click(function () {
         $("#chinese").toggle();
@@ -28,7 +29,10 @@ function loadWord(){
                 $("#word").html("<h1>"+worddata.word+worddata.phonetic+"</h1>");
                 $("#root").html(worddata.root);//词根
                 $("#coreWord").html(worddata.coreword);//核心词
-                var note="";
+                var note=""
+                if(worddata.coreword){
+                    loadWordsByCoreWord(1,worddata.coreword);//加载核心词相关单词
+                }
                 if(worddata.core){//如果存在核心词对象
                     note+="---------核心词----------<br/>";
                     note+=worddata.core.note+"<br/>";
@@ -72,4 +76,46 @@ function isHasImg(pathImg){
     } else {
         return false;
     }
+}
+/**
+ * 加载word
+ * @param pageNum页数
+ */
+function loadWordsByCoreWord(pageNum,coreWord){
+    var pn=1;//默认为第1页
+    if(pageNum){
+        pn=pageNum;
+    }
+    var param={
+        pn:pn,
+        coreWord:coreWord
+    };
+    $.ajax({
+        url:"/coreWord/page",
+        type:"GET",
+        dataType:"JSON",
+        data:param,
+        success:function(data){
+            if(data.code==200){//如果成功
+                var datas=data.extend.words;//得到数据
+                var datahtml="";
+                $.each(datas,function (i,word) {
+                    datahtml+="<tr>";
+                    datahtml+="<td>";
+                    datahtml+=word.word;
+                    datahtml+="</td>";
+                    datahtml+="<td>";
+                    datahtml+=word.root;
+                    datahtml+="</td>";
+                    datahtml+="<td>";
+                    datahtml+=word.chinese;
+                    datahtml+="</td>";
+                    datahtml+="</tr>";
+                });
+                $("#wordtbody").html(datahtml);//加载到tbody中
+            }else{
+                alert(data.extend.errMsg);
+            }
+        }
+    });
 }

@@ -90,14 +90,7 @@ public class WordController
         {
             pn = 1;
         }
-        // 这不是一个分页查询
-        // 引入PageHelper分页插件
-        // 在查询之前只需要调用，传入页码，以及每页的大小
         PageHelper.startPage(pn, Constants.PAGESIZE);
-        // startPage后面紧跟的这个查询就是一个分页查询
-        Map<String ,Object> map=new HashMap();//构建查询MAP参数
-        // 使用pageInfo包装查询后的结果，只需要将pageInfo交给页面就行了。
-        // 封装了详细的分页信息,包括有我们查询出来的数据，传入连续显示的页数
         List<Word> words=wordService.list(word);
         PageInfo page = new PageInfo(words, Constants.PAGESIZE);
         return Msg.success().add("pageInfo", page);
@@ -128,5 +121,22 @@ public class WordController
     {
         Word word= wordService.randomWord();
         return Msg.success().add("word",word);
+    }
+
+    /**
+     * 查询word 分页
+     * @return
+     */
+    @GetMapping("/coreWord/page")
+    public Msg coreWordPage(Integer pn,String coreWord)
+    {
+        logger.info("coreWordPage method: pn:{},coreWord:{}", pn,coreWord);
+        if (pn == null)
+        {
+            pn = 1;
+        }
+        PageHelper.startPage(pn, Constants.PAGESIZE);
+        List<Word> words=wordService.listByCoreWord(coreWord);
+        return Msg.success().add("words", words);
     }
 }

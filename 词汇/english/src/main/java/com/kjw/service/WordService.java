@@ -1,6 +1,7 @@
 package com.kjw.service;
 
 import com.kjw.bean.Word;
+import com.kjw.bean.WordExample;
 
 import java.util.List;
 
@@ -46,4 +47,6 @@ public interface WordService
     List<Word> selectByWords(List<String> words);
 
     Word randomWord();
+
+    List<Word> listByCoreWord(String coreWord);
 }

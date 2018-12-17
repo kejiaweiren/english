@@ -116,4 +116,12 @@ public class WordServiceImpl implements WordService
         }
         return word;
     }
+    public List<Word> listByCoreWord(String coreWord){
+        WordExample example=new WordExample();
+        WordExample.Criteria criteria=example.createCriteria();
+        if (StringUtil.isNotEmpty(coreWord)){
+            criteria.andCorewordEqualTo(coreWord);
+        }
+        return wordMapper.selectByExample(example);
+    }
 }
