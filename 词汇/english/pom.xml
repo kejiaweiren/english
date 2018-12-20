@@ -6,7 +6,7 @@
     <groupId>com.kjw</groupId>
     <artifactId>english</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>english</name>
     <description></description>
@@ -119,6 +119,7 @@
     </dependencies>
 
     <build>
+        <finalName>ROOT</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

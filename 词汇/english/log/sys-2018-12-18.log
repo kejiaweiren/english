@@ -1,0 +1,135 @@
+2018-12-18 10:25:08,312 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 5524 (started by seari in E:\work\english\词汇\english)
+2018-12-18 10:25:08,325 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-12-18 10:25:08,328 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-18 10:25:21,686 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 16.109 seconds (JVM running for 22.228)
+2018-12-18 10:27:51,625 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-18 10:27:51,646 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-18 10:27:51,678 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:27:51,756 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-18 10:27:51,757 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: parent(String)
+2018-12-18 10:27:51,768 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:27:52,817 INFO (WordController.java:133)- coreWordPage method: pn:1,coreWord:parent
+2018-12-18 10:27:53,065 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word WHERE (coreword = ?) 
+2018-12-18 10:27:53,066 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: parent(String)
+2018-12-18 10:27:53,069 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:27:53,072 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) LIMIT ? 
+2018-12-18 10:27:53,073 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: parent(String), 10(Integer)
+2018-12-18 10:27:53,080 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-18 10:28:39,441 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-18 10:28:39,442 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-18 10:28:39,449 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:28:39,451 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-18 10:28:39,453 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: state(String)
+2018-12-18 10:28:39,464 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:28:39,639 INFO (WordController.java:133)- coreWordPage method: pn:1,coreWord:state
+2018-12-18 10:28:39,642 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word WHERE (coreword = ?) 
+2018-12-18 10:28:39,643 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: state(String)
+2018-12-18 10:28:39,646 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:28:39,648 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) LIMIT ? 
+2018-12-18 10:28:39,649 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: state(String), 10(Integer)
+2018-12-18 10:28:39,659 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-18 10:29:30,873 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 9136 (started by seari in E:\work\english\词汇\english)
+2018-12-18 10:29:30,878 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-12-18 10:29:30,882 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-18 10:29:33,684 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 3.979 seconds (JVM running for 5.543)
+2018-12-18 10:29:38,385 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-18 10:29:38,407 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-18 10:29:38,580 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:29:38,628 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-18 10:29:38,629 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: vincible(String)
+2018-12-18 10:29:38,638 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:29:38,871 INFO (WordController.java:133)- coreWordPage method: pn:1,coreWord:vincible
+2018-12-18 10:29:38,873 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-18 10:29:38,874 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: vincible(String)
+2018-12-18 10:29:38,884 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-12-18 10:30:05,558 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-18 10:30:05,559 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-18 10:30:05,562 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:30:05,564 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-18 10:30:05,565 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: motor(String)
+2018-12-18 10:30:05,577 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:30:05,673 INFO (WordController.java:133)- coreWordPage method: pn:1,coreWord:motor
+2018-12-18 10:30:05,675 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-18 10:30:05,676 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: motor(String)
+2018-12-18 10:30:05,693 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 23
+2018-12-18 10:30:42,226 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-18 10:30:42,228 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-18 10:30:42,233 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:30:42,258 INFO (WordController.java:133)- coreWordPage method: pn:1,coreWord:balance
+2018-12-18 10:30:42,260 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-18 10:30:42,261 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: balance(String)
+2018-12-18 10:30:42,272 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 12
+2018-12-18 10:35:29,156 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-18 10:35:29,158 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-18 10:35:29,162 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:35:29,197 INFO (WordController.java:133)- coreWordPage method: pn:1,coreWord:organic
+2018-12-18 10:35:29,199 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-18 10:35:29,200 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: organic(String)
+2018-12-18 10:35:29,211 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-18 10:36:58,626 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-18 10:36:58,629 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-18 10:36:58,637 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:36:58,641 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-18 10:36:58,643 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: stand(String)
+2018-12-18 10:36:58,658 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:36:58,708 INFO (WordController.java:133)- coreWordPage method: pn:1,coreWord:stand
+2018-12-18 10:36:58,710 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-18 10:36:58,711 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: stand(String)
+2018-12-18 10:36:58,724 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 39
+2018-12-18 10:37:49,179 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-18 10:37:49,180 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-18 10:37:49,182 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:37:49,185 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-18 10:37:49,186 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: stat(String)
+2018-12-18 10:37:49,198 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:37:49,233 INFO (WordController.java:133)- coreWordPage method: pn:1,coreWord:stat
+2018-12-18 10:37:49,236 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-18 10:37:49,238 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: stat(String)
+2018-12-18 10:37:49,249 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 27
+2018-12-18 10:38:28,093 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-18 10:38:28,094 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-18 10:38:28,097 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:39:12,808 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-18 10:39:12,810 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-18 10:39:12,818 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:39:12,821 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-18 10:39:12,822 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: bank(String)
+2018-12-18 10:39:12,838 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:39:12,857 INFO (WordController.java:133)- coreWordPage method: pn:1,coreWord:bank
+2018-12-18 10:39:12,858 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-18 10:39:12,859 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: bank(String)
+2018-12-18 10:39:12,877 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 17
+2018-12-18 10:41:57,848 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-18 10:41:57,849 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-18 10:41:57,852 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:41:57,879 INFO (WordController.java:133)- coreWordPage method: pn:1,coreWord:method
+2018-12-18 10:41:57,880 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-18 10:41:57,881 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: method(String)
+2018-12-18 10:41:57,888 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2018-12-18 10:42:08,746 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-18 10:42:08,747 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-18 10:42:08,763 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:42:08,769 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-18 10:42:08,769 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: form(String)
+2018-12-18 10:42:08,776 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:42:08,789 INFO (WordController.java:133)- coreWordPage method: pn:1,coreWord:form
+2018-12-18 10:42:08,790 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-18 10:42:08,791 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: form(String)
+2018-12-18 10:42:08,807 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 47
+2018-12-18 10:42:25,370 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-18 10:42:25,372 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-18 10:42:25,375 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:42:25,385 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-18 10:42:25,388 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: pathology(String)
+2018-12-18 10:42:25,400 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:42:25,551 INFO (WordController.java:133)- coreWordPage method: pn:1,coreWord:pathology
+2018-12-18 10:42:25,554 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-18 10:42:25,556 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: pathology(String)
+2018-12-18 10:42:25,573 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2018-12-18 10:43:10,545 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2 WHERE t1.id >= t2.id ORDER BY t1.id LIMIT 1; 
+2018-12-18 10:43:10,548 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-18 10:43:10,552 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-18 10:43:10,570 INFO (WordController.java:133)- coreWordPage method: pn:1,coreWord:pressure
+2018-12-18 10:43:10,571 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-18 10:43:10,572 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: pressure(String)
+2018-12-18 10:43:10,583 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 20

@@ -97,10 +97,24 @@ public class WordServiceImpl implements WordService
         if (!words.isEmpty()){
             criteria.andWordIn(words);
         }
-        return wordMapper.selectByExample(example);
+        List<Word> datas = wordMapper.selectByExample(example);
+        for (Word data : datas)
+        {
+            setCordWord(data);
+        }
+        return datas;
     }
     public Word randomWord(){
         Word word=wordMapper.randomWord();
+        setCordWord(word);
+        return word;
+    }
+
+    /**
+     * 设置核心词
+     * @param word
+     */
+    private void setCordWord(Word word){
         if (StringUtil.isNotEmpty(word.getCoreword())){//得到核心词对象
             String corewordstr= word.getCoreword();
             if (!corewordstr.equals(word.getWord()) ){//如果当前不是核心词本身
@@ -114,7 +128,6 @@ public class WordServiceImpl implements WordService
             }
 
         }
-        return word;
     }
     public List<Word> listByCoreWord(String coreWord){
         WordExample example=new WordExample();

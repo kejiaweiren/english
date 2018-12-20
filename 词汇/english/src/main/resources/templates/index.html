@@ -1,34 +1,21 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
+    <title>词汇</title>
+    <link th:href="@{/css/main.css}" rel="stylesheet"/>
     <link th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}" rel="stylesheet"/>
-        <style>
-        #headDiv{
-            font-size: 16px;
-            margin-top: 20px;
-        }
-        #headDiv span{
-            margin-left: 20px;
-        }
-        #word{
-            font-weight: bold;font-size: 40px
-        }
-        .wordExplain{
-            font-size: 30px;
-            margin-top: 10px;
-        }
-        #note,#root,#coreWord{
-            color: red;
-        }
-    </style>
 </head>
 <body>
 <div align="center">
-    <div id="headDiv">
+    <div align="right">
+        <a href="javascript:open('/admin')">管理界面</a>
+    </div>
+    <div id="headDiv" align="center">
         <span id="rootSpan">词根</span>
         <span id="chineseSpan">中文</span>
         <span id="coreWordSpan">核心词+解析</span>
         <span id="nextSpan">下一个</span>
+
     </div>
     <div id="word"></div>
     <div id="root" class="wordExplain"></div>

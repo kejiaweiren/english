@@ -1,5 +1,5 @@
 $(function() {
-    loadWord();
+    loadWord(null);
     $("#rootSpan").click(function () {
         $("#root").toggle();
     });
@@ -17,15 +17,25 @@ $(function() {
 /**
  * 加载word
  */
-function loadWord(){
+function loadWord(word){
+    var url="";
+    if(word){
+        url="/getDetailByWord";
+    }else{
+        url="/randomWord";
+    }
     $(".wordExplain").not("#rootTable").html("");
     $("#wordtbody").html("");
     $(".wordExplain").hide();
     $(".wordExplain").hide();
+    var param={
+        word:word
+    };
     $.ajax({
-        url:"/randomWord",
+        url:url,
         type:"GET",
         dataType:"JSON",
+        data:param,
         success:function(data){
             if(data.code==200){//如果成功
                 var worddata=data.extend.word;//得到数据
@@ -115,6 +125,7 @@ function loadWordsByCoreWord(pageNum,coreWord){
                     datahtml+="<tr>";
                     datahtml+="<td>";
                     datahtml+=word.word+word.phonetic;
+                    datahtml+="<button onclick=\"loadWord('"+word.word+"')\"><span class='glyphicon glyphicon-eye-open'></span></button>";
                     datahtml+="</td>";
                     datahtml+="<td>";
                     datahtml+=word.chinese;

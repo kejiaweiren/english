@@ -1,0 +1,17 @@
+#headDiv{
+    font-size: 16px;
+    margin-top: 20px;
+}
+#headDiv span{
+    margin-left: 20px;
+}
+#word{
+    font-weight: bold;font-size: 40px
+}
+.wordExplain{
+    font-size: 16px;
+    margin-top: 10px;
+}
+#note,#root,#coreWord{
+    color: red;
+}

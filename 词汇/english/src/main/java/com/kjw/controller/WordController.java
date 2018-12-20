@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -131,12 +132,23 @@ public class WordController
     public Msg coreWordPage(Integer pn,String coreWord)
     {
         logger.info("coreWordPage method: pn:{},coreWord:{}", pn,coreWord);
-        if (pn == null)
-        {
-            pn = 1;
-        }
-        PageHelper.startPage(pn, Constants.PAGESIZE);
         List<Word> words=wordService.listByCoreWord(coreWord);
         return Msg.success().add("words", words);
     }
+    /**
+     * 根据word查询
+     * @param word
+     * @return
+     */
+    @GetMapping(value = "/getDetailByWord")
+    public Msg getWordByWord(String word)
+    {
+        Word data=new Word();
+        List<Word> words = wordService.selectByWords(Arrays.asList(word));
+        if (!words.isEmpty()){
+            data=words.get(0);
+        }
+        return Msg.success().add("word", data);
+    }
+
 }
