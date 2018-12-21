@@ -4,6 +4,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.kjw.bean.Msg;
 import com.kjw.bean.Word;
+import com.kjw.bean.WordContainer;
 import com.kjw.common.Constants;
 import com.kjw.poi.WordImport;
 import com.kjw.service.WordService;
@@ -113,8 +114,6 @@ public class WordController
         }
     }
     /**
-     * 随机WORD
-     *
      * @return
      */
     @GetMapping("/randomWord")

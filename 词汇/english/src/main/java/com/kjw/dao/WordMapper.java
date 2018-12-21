@@ -4,6 +4,7 @@ import com.kjw.bean.Word;
 import com.kjw.bean.WordExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.cache.annotation.Cacheable;
 
 public interface WordMapper {
     long countByExample(WordExample example);
@@ -16,6 +17,7 @@ public interface WordMapper {
 
     int insertSelective(Word record);
 
+    @Cacheable
     List<Word> selectByExample(WordExample example);
 
     Word selectByPrimaryKey(Integer id);
@@ -30,5 +32,5 @@ public interface WordMapper {
 
     void batchInsert(List<Word> temp);
 
-    Word randomWord();
+    List<Word> randomWord(Integer randomNum);
 }

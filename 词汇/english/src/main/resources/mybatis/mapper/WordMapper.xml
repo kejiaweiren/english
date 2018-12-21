@@ -253,10 +253,6 @@
         </foreach>
     </insert>
     <select id="randomWord" resultMap="BaseResultMap">
-        select
-       *
-        FROM `word` AS t1 JOIN (SELECT ROUND(RAND() * ((SELECT MAX(id) FROM `word`)-(SELECT MIN(id) FROM `word`))+(SELECT MIN(id) FROM `word`)) AS id) AS t2
-        WHERE t1.id &gt;= t2.id
-        ORDER BY t1.id LIMIT 1;
+    SELECT * FROM word WHERE id >= ((SELECT MAX(id) FROM word)-(SELECT MIN(id) FROM word)) * RAND() + (SELECT MIN(id) FROM word)  LIMIT #{randomNum}
     </select>
 </mapper>
