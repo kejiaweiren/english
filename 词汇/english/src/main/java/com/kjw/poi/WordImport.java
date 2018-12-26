@@ -67,7 +67,7 @@ public class WordImport extends POIBase
     {
         WordImport wordImport=new WordImport();
         Word word=new Word();
-        word.setWord("aa[  123]");
+        word.setWord("  a  a[  123]");
         wordImport.formatWord(word);
         System.out.println(word);
     }

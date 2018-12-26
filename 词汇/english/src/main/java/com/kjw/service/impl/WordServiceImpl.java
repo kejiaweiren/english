@@ -11,6 +11,7 @@ import com.kjw.service.WordService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
@@ -26,6 +27,8 @@ public class WordServiceImpl implements WordService
 {
     @Autowired
     private WordMapper wordMapper;
+    @Value("${randNum}")
+    private Integer randNum;
     private static Logger logger = LoggerFactory.getLogger(WordServiceImpl.class);
     /**
      * 保存
@@ -126,9 +129,9 @@ public class WordServiceImpl implements WordService
             String randomKey = keys[random.nextInt(keys.length)];
             word=map.get(randomKey);
             WordContainer.wordMap.remove(randomKey);//删除这条数据
-            logger.info("取出单词{}缓存中是否存在这数据了:{}现还有{}条数据",randomKey,WordContainer.wordMap.containsKey(randomKey),WordContainer.wordMap.size());
+            logger.info("取出单词{},现还有{}条数据",randomKey,WordContainer.wordMap.size());
         }else{
-            List<Word> words=wordMapper.randomWord(Constants.RANDOMNUM);//如果没有数据，去数据库查询
+            List<Word> words=wordMapper.randomWord(randNum);//如果没有数据，去数据库查询
             word=words.get(0);
             words.remove(0);
             logger.info("缓存中没有数据，取数据库.现有数据共{}条",+words.size());

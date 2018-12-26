@@ -8,5 +8,4 @@ package com.kjw.common;
 public class Constants
 {
     public static final  Integer PAGESIZE=10;
-    public static final  Integer RANDOMNUM=500;
 }

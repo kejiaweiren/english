@@ -12,14 +12,20 @@ $(function() {
         $("#chinese").toggle();
         $("#sentence").toggle();
     });
-    $("#nextSpan").click(loadWord);
+    $("#nextSpan").click(function () {
+        loadWord(null);
+    });
 });
 /**
  * 加载word
  */
 function loadWord(word){
     var url="";
+    var param={};
     if(word){
+        param={
+            word:word
+        };
         url="/getDetailByWord";
     }else{
         url="/randomWord";
@@ -28,25 +34,22 @@ function loadWord(word){
     $("#wordtbody").html("");
     $(".wordExplain").hide();
     $(".wordExplain").hide();
-    var param={
-        word:word
-    };
+
     $.ajax({
         url:url,
-        type:"GET",
         dataType:"JSON",
         data:param,
         success:function(data){
             if(data.code==200){//如果成功
                 var worddata=data.extend.word;//得到数据
-                $("#word").html("<h1>"+worddata.word+worddata.phonetic+"</h1>");
+                $("#word").html("<h1><span id='currentWord'>"+worddata.word+"</span>"+worddata.phonetic+"</h1>");
                 $("#root").html(worddata.root);//词根
                 var note=""
                 if(worddata.coreword){
-                    loadWordsByCoreWord(1,worddata.coreword);//加载核心词相关单词
+                    loadWordsByCoreWord(worddata.coreword);//加载核心词相关单词
                 }
                 if(worddata.core){//如果存在核心词对象
-                    $("#coreWord").html(worddata.core.word+worddata.core.phonetic);//核心词
+                    $("#coreWord").html("<b>核心词："+worddata.core.word+worddata.core.phonetic+"</b>");//核心词
                     note+="---------核心词解析----------<br/>";
                     note+=worddata.core.note+"<br/><div id='corewordimgdiv'></div>";
                     note+="-------------------<br/>";
@@ -73,7 +76,6 @@ function getWordImgHtml(word,divid){
     var imageFullPath="/images/"+word+".png";//图片以imageDir//单词名.png来命名
     $.ajax({
         url:imageFullPath,
-        type:"GET",
         success:function(){
             $("#"+divid).html("<img src='"+imageFullPath+"'/><br/>");
         }
@@ -103,18 +105,12 @@ function isHasImg(pathImg){
  * 加载word
  * @param pageNum页数
  */
-function loadWordsByCoreWord(pageNum,coreWord){
-    var pn=1;//默认为第1页
-    if(pageNum){
-        pn=pageNum;
-    }
+function loadWordsByCoreWord(coreWord){
     var param={
-        pn:pn,
         coreWord:coreWord
     };
     $.ajax({
-        url:"/coreWord/page",
-        type:"GET",
+        url:"/getWordsByCoreWord",
         dataType:"JSON",
         data:param,
         success:function(data){
@@ -122,7 +118,11 @@ function loadWordsByCoreWord(pageNum,coreWord){
                 var datas=data.extend.words;//得到数据
                 var datahtml="";
                 $.each(datas,function (i,word) {
-                    datahtml+="<tr>";
+                    datahtml+="<tr";
+                    if(word.word==$("#currentWord").text()){
+                        datahtml+=" style='color:red'";
+                    }
+                    datahtml+=">";
                     datahtml+="<td>";
                     datahtml+=word.word+word.phonetic;
                     datahtml+="<button onclick=\"loadWord('"+word.word+"')\"><span class='glyphicon glyphicon-eye-open'></span></button>";

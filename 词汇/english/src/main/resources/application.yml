@@ -47,3 +47,4 @@ server:
   port: 8082
 logging:
   config: classpath:logback-boot.xml
+randNum: 2000

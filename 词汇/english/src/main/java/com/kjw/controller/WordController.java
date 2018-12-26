@@ -127,10 +127,10 @@ public class WordController
      * 查询word 分页
      * @return
      */
-    @GetMapping("/coreWord/page")
-    public Msg coreWordPage(Integer pn,String coreWord)
+    @GetMapping("/getWordsByCoreWord")
+    public Msg getWordsByCoreWord(String coreWord)
     {
-        logger.info("coreWordPage method: pn:{},coreWord:{}", pn,coreWord);
+        logger.info("coreWordPage method: coreWord:{}",coreWord);
         List<Word> words=wordService.listByCoreWord(coreWord);
         return Msg.success().add("words", words);
     }
