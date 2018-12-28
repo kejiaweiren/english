@@ -6,6 +6,7 @@ $(function(){
     });
     $("#importWord").click(importWord);//点击导入可以导入expense
 });
+
 function importWord(){
 //检验导入的文件是否为Excel文件
     var uploadFile =$("#uploadFile").val();
@@ -66,9 +67,11 @@ function loadPage(pageNum){
         pn=pageNum;
     }
     var param={
-        pn:pn,
-        word:$("#searchWord").val()
+        pn:pn
     };
+    if($("#searchWord").val()){
+        param.word=$("#searchWord").val().toLowerCase().trim();
+    }
     $.ajax({
         url:"/word/page",
         type:"POST",

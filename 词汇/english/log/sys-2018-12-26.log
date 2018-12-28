@@ -1,0 +1,286 @@
+2018-12-26 13:50:36,419 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 9380 (started by seari in E:\work\english\词汇\english)
+2018-12-26 13:50:36,429 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-12-26 13:50:36,433 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-26 13:50:39,204 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 3.757 seconds (JVM running for 6.366)
+2018-12-26 13:50:46,107 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT * FROM word WHERE id >= ((SELECT MAX(id) FROM word)-(SELECT MIN(id) FROM word)) * RAND() + (SELECT MIN(id) FROM word) LIMIT ? 
+2018-12-26 13:50:46,128 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2000(Integer)
+2018-12-26 13:50:46,284 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1425
+2018-12-26 13:50:46,287 INFO (WordServiceImpl.java:137)- 缓存中没有数据，取数据库.现有数据共1424条
+2018-12-26 13:50:57,515 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT * FROM word WHERE id >= ((SELECT MAX(id) FROM word)-(SELECT MIN(id) FROM word)) * RAND() + (SELECT MIN(id) FROM word) LIMIT ? 
+2018-12-26 13:50:57,516 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2000(Integer)
+2018-12-26 13:50:57,592 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1433
+2018-12-26 13:50:57,594 INFO (WordServiceImpl.java:137)- 缓存中没有数据，取数据库.现有数据共1432条
+2018-12-26 13:51:07,365 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 12724 (started by seari in E:\work\english\词汇\english)
+2018-12-26 13:51:07,371 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-12-26 13:51:07,374 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-26 13:51:10,210 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 4.395 seconds (JVM running for 6.231)
+2018-12-26 13:51:13,148 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT * FROM word WHERE id >= ((SELECT MAX(id) FROM word)-(SELECT MIN(id) FROM word)) * RAND() + (SELECT MIN(id) FROM word) LIMIT ? 
+2018-12-26 13:51:13,170 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2000(Integer)
+2018-12-26 13:51:13,328 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1420
+2018-12-26 13:51:13,332 INFO (WordServiceImpl.java:137)- 缓存中没有数据，取数据库.现有数据共1419条
+2018-12-26 13:51:36,481 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 10796 (started by seari in E:\work\english\词汇\english)
+2018-12-26 13:51:36,486 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-12-26 13:51:36,489 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-26 13:51:39,406 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 4.523 seconds (JVM running for 6.179)
+2018-12-26 13:51:42,201 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT * FROM word WHERE id >= ((SELECT MAX(id) FROM word)-(SELECT MIN(id) FROM word)) * RAND() + (SELECT MIN(id) FROM word) LIMIT ? 
+2018-12-26 13:51:42,229 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2000(Integer)
+2018-12-26 13:51:42,374 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1482
+2018-12-26 13:51:42,378 INFO (WordServiceImpl.java:137)- 缓存中没有数据，取数据库.现有数据共1481条
+2018-12-26 13:53:04,613 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 8704 (started by seari in E:\work\english\词汇\english)
+2018-12-26 13:53:04,618 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-12-26 13:53:04,620 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-26 13:53:07,679 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 4.518 seconds (JVM running for 6.303)
+2018-12-26 13:53:12,730 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT * FROM word WHERE id >= ((SELECT MAX(id) FROM word)-(SELECT MIN(id) FROM word)) * RAND() + (SELECT MIN(id) FROM word) LIMIT ? 
+2018-12-26 13:53:12,759 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2000(Integer)
+2018-12-26 13:53:12,884 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1470
+2018-12-26 13:53:15,708 INFO (WordServiceImpl.java:137)- 缓存中没有数据，取数据库.现有数据共1469条
+2018-12-26 13:56:41,457 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 9992 (started by seari in E:\work\english\词汇\english)
+2018-12-26 13:56:41,462 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-12-26 13:56:41,465 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-26 13:56:45,638 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 6.139 seconds (JVM running for 7.955)
+2018-12-26 13:56:51,672 INFO (WordController.java:90)- page method: pn:1,word:
+2018-12-26 13:56:52,397 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-12-26 13:56:52,429 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 13:56:52,471 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 13:56:52,476 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word LIMIT ? 
+2018-12-26 13:56:52,477 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-26 13:56:52,489 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-26 13:57:21,723 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word in ( ? ) ) 
+2018-12-26 13:57:21,725 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: substantial(String)
+2018-12-26 13:57:21,727 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-26 13:57:21,734 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence,phonetic) values ( ?,?,?, ?,?,?, ? ) 
+2018-12-26 13:57:21,735 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: substantial(String), adj. 大量的；实质的；内容充实的n. 本质；重要材料【词频2560】(String), 【substant+i+al形容词后缀】(String), substance(String), st(String), null, [səb'stænʃ(ə)l](String)
+2018-12-26 13:57:21,798 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-12-26 13:57:23,255 INFO (WordController.java:90)- page method: pn:1,word:
+2018-12-26 13:57:23,256 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-12-26 13:57:23,257 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 13:57:23,259 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 13:57:23,260 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word LIMIT ? 
+2018-12-26 13:57:23,260 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-26 13:57:23,268 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-26 13:58:15,912 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word in ( ? ) ) 
+2018-12-26 13:58:15,914 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: substantial(String)
+2018-12-26 13:58:15,916 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-12-26 13:58:15,917 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO word(word, chinese,note,coreword,root,sentence,phonetic) values ( ?,?,?, ?,?,?, ? ) 
+2018-12-26 13:58:15,918 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: substantial(String), adj. 大量的；实质的；内容充实的n. 本质；重要材料【词频2560】(String), 【substant+i+al形容词后缀】(String), substance(String), st(String), null, [səb'stænʃ(ə)l](String)
+2018-12-26 13:58:15,969 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-12-26 13:58:17,154 INFO (WordController.java:90)- page method: pn:1,word:
+2018-12-26 13:58:17,156 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-12-26 13:58:17,157 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 13:58:17,159 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 13:58:17,160 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word LIMIT ? 
+2018-12-26 13:58:17,161 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-26 13:58:17,163 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-26 13:59:15,034 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 5912 (started by seari in E:\work\english\词汇\english)
+2018-12-26 13:59:15,042 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-12-26 13:59:15,045 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-26 13:59:17,938 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 4.549 seconds (JVM running for 6.076)
+2018-12-26 13:59:22,657 INFO (WordController.java:90)- page method: pn:1,word:
+2018-12-26 13:59:23,132 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM word 
+2018-12-26 13:59:23,162 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-12-26 13:59:23,185 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 13:59:23,189 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word LIMIT ? 
+2018-12-26 13:59:23,190 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-12-26 13:59:23,195 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-12-26 13:59:23,778 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT * FROM word WHERE id >= ((SELECT MAX(id) FROM word)-(SELECT MIN(id) FROM word)) * RAND() + (SELECT MIN(id) FROM word) LIMIT ? 
+2018-12-26 13:59:23,781 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2000(Integer)
+2018-12-26 13:59:23,943 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1447
+2018-12-26 13:59:23,945 INFO (WordServiceImpl.java:137)- 缓存中没有数据，取数据库.现有数据共1446条
+2018-12-26 13:59:24,138 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 13:59:24,140 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: form(String)
+2018-12-26 13:59:24,142 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 13:59:24,195 INFO (WordController.java:133)- coreWordPage method: coreWord:form
+2018-12-26 13:59:24,197 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 13:59:24,198 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: form(String)
+2018-12-26 13:59:24,216 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 49
+2018-12-26 14:00:04,607 INFO (WordServiceImpl.java:132)- 取出单词meddle,现还有1445条数据
+2018-12-26 14:00:04,639 INFO (WordController.java:133)- coreWordPage method: coreWord:meddle
+2018-12-26 14:00:04,645 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:00:04,646 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: meddle(String)
+2018-12-26 14:00:04,655 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-12-26 14:00:59,462 INFO (WordServiceImpl.java:132)- 取出单词taskbar,现还有1444条数据
+2018-12-26 14:00:59,468 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:00:59,469 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: bar(String)
+2018-12-26 14:00:59,471 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:00:59,498 INFO (WordController.java:133)- coreWordPage method: coreWord:bar
+2018-12-26 14:00:59,500 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:00:59,501 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: bar(String)
+2018-12-26 14:00:59,512 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 40
+2018-12-26 14:01:23,498 INFO (WordServiceImpl.java:132)- 取出单词constrictor,现还有1443条数据
+2018-12-26 14:01:23,502 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:01:23,503 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: constrict(String)
+2018-12-26 14:01:23,505 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:01:23,526 INFO (WordController.java:133)- coreWordPage method: coreWord:constrict
+2018-12-26 14:01:23,527 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:01:23,528 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: constrict(String)
+2018-12-26 14:01:23,536 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 7
+2018-12-26 14:02:35,182 INFO (WordServiceImpl.java:132)- 取出单词state-certified,现还有1442条数据
+2018-12-26 14:02:35,185 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:02:35,186 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: state(String)
+2018-12-26 14:02:35,188 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:02:35,200 INFO (WordController.java:133)- coreWordPage method: coreWord:state
+2018-12-26 14:02:35,202 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:02:35,203 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: state(String)
+2018-12-26 14:02:35,218 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 99
+2018-12-26 14:11:47,234 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 10084 (started by seari in E:\work\english\词汇\english)
+2018-12-26 14:11:47,239 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-12-26 14:11:47,242 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-26 14:11:51,772 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 5.564 seconds (JVM running for 7.183)
+2018-12-26 14:18:28,479 INFO (StartupInfoLogger.java:50)- Starting EnglishApplication on seari-PC with PID 11280 (started by seari in E:\work\english\词汇\english)
+2018-12-26 14:18:28,485 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-12-26 14:18:28,488 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-12-26 14:18:32,677 INFO (StartupInfoLogger.java:59)- Started EnglishApplication in 5.793 seconds (JVM running for 7.638)
+2018-12-26 14:18:39,464 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT * FROM word WHERE id >= ((SELECT MAX(id) FROM word)-(SELECT MIN(id) FROM word)) * RAND() + (SELECT MIN(id) FROM word) LIMIT ? 
+2018-12-26 14:18:39,485 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2000(Integer)
+2018-12-26 14:18:39,587 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1407
+2018-12-26 14:18:39,590 INFO (WordServiceImpl.java:137)- 缓存中没有数据，取数据库.现有数据共1406条
+2018-12-26 14:18:39,634 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:18:39,635 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: form(String)
+2018-12-26 14:18:39,637 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:18:39,764 INFO (WordController.java:133)- coreWordPage method: coreWord:form
+2018-12-26 14:18:39,768 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:18:39,769 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: form(String)
+2018-12-26 14:18:39,783 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 49
+2018-12-26 14:18:43,940 INFO (WordServiceImpl.java:132)- 取出单词bedstead,现还有1405条数据
+2018-12-26 14:18:43,941 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:18:43,943 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: stead(String)
+2018-12-26 14:18:43,944 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:18:43,955 INFO (WordController.java:133)- coreWordPage method: coreWord:stead
+2018-12-26 14:18:43,960 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:18:43,962 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: stead(String)
+2018-12-26 14:18:43,973 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2018-12-26 14:20:32,960 INFO (WordServiceImpl.java:132)- 取出单词rediscovery,现还有1404条数据
+2018-12-26 14:20:32,963 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:20:32,964 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: discover(String)
+2018-12-26 14:20:32,966 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:20:33,000 INFO (WordController.java:133)- coreWordPage method: coreWord:discover
+2018-12-26 14:20:33,001 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:20:33,002 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: discover(String)
+2018-12-26 14:20:33,015 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 11
+2018-12-26 14:20:33,649 INFO (WordServiceImpl.java:132)- 取出单词sit-up,现还有1403条数据
+2018-12-26 14:20:33,651 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:20:33,652 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: sit(String)
+2018-12-26 14:20:33,654 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:20:33,665 INFO (WordController.java:133)- coreWordPage method: coreWord:sit
+2018-12-26 14:20:33,668 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:20:33,670 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: sit(String)
+2018-12-26 14:20:33,688 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 23
+2018-12-26 14:20:35,217 INFO (WordServiceImpl.java:132)- 取出单词anti-static,现还有1402条数据
+2018-12-26 14:20:35,218 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:20:35,224 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: stat(String)
+2018-12-26 14:20:35,225 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:20:35,236 INFO (WordController.java:133)- coreWordPage method: coreWord:stat
+2018-12-26 14:20:35,238 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:20:35,239 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: stat(String)
+2018-12-26 14:20:35,256 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 27
+2018-12-26 14:21:28,366 INFO (WordServiceImpl.java:132)- 取出单词impassive,现还有1401条数据
+2018-12-26 14:21:28,369 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:21:28,370 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: impassible(String)
+2018-12-26 14:21:28,372 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:21:28,395 INFO (WordController.java:133)- coreWordPage method: coreWord:impassible
+2018-12-26 14:21:28,396 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:21:28,397 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: impassible(String)
+2018-12-26 14:21:28,409 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2018-12-26 14:23:09,722 INFO (WordServiceImpl.java:132)- 取出单词parenthood,现还有1400条数据
+2018-12-26 14:23:09,724 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:23:09,726 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: parent(String)
+2018-12-26 14:23:09,728 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:23:09,741 INFO (WordController.java:133)- coreWordPage method: coreWord:parent
+2018-12-26 14:23:09,743 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:23:09,744 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: parent(String)
+2018-12-26 14:23:09,757 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 17
+2018-12-26 14:23:12,652 INFO (WordServiceImpl.java:132)- 取出单词stringy,现还有1399条数据
+2018-12-26 14:23:12,654 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:23:12,656 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: string(String)
+2018-12-26 14:23:12,659 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:23:12,677 INFO (WordController.java:133)- coreWordPage method: coreWord:string
+2018-12-26 14:23:12,680 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:23:12,682 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: string(String)
+2018-12-26 14:23:12,695 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 17
+2018-12-26 14:23:48,292 INFO (WordServiceImpl.java:132)- 取出单词possession,现还有1398条数据
+2018-12-26 14:23:48,303 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:23:48,304 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: possess(String)
+2018-12-26 14:23:48,305 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:23:48,323 INFO (WordController.java:133)- coreWordPage method: coreWord:possess
+2018-12-26 14:23:48,328 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:23:48,329 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: possess(String)
+2018-12-26 14:23:48,341 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 18
+2018-12-26 14:23:48,616 INFO (WordServiceImpl.java:132)- 取出单词constant,现还有1397条数据
+2018-12-26 14:23:48,626 INFO (WordController.java:133)- coreWordPage method: coreWord:constant
+2018-12-26 14:23:48,634 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:23:48,635 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: constant(String)
+2018-12-26 14:23:48,646 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2018-12-26 14:24:04,828 INFO (WordServiceImpl.java:132)- 取出单词implicature,现还有1396条数据
+2018-12-26 14:24:04,830 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:24:04,830 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: implicate(String)
+2018-12-26 14:24:04,832 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:24:05,073 INFO (WordController.java:133)- coreWordPage method: coreWord:implicate
+2018-12-26 14:24:05,076 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:24:05,078 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: implicate(String)
+2018-12-26 14:24:05,103 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2018-12-26 14:24:41,887 INFO (WordServiceImpl.java:132)- 取出单词constructor,现还有1395条数据
+2018-12-26 14:24:41,890 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:24:41,891 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: construct(String)
+2018-12-26 14:24:41,892 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:24:41,916 INFO (WordController.java:133)- coreWordPage method: coreWord:construct
+2018-12-26 14:24:41,925 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:24:41,926 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: construct(String)
+2018-12-26 14:24:41,939 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2018-12-26 14:24:43,763 INFO (WordServiceImpl.java:132)- 取出单词moss-covered,现还有1394条数据
+2018-12-26 14:24:43,767 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:24:43,768 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: cover(String)
+2018-12-26 14:24:43,771 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:24:43,790 INFO (WordController.java:133)- coreWordPage method: coreWord:cover
+2018-12-26 14:24:43,791 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:24:43,792 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: cover(String)
+2018-12-26 14:24:43,802 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 41
+2018-12-26 14:24:57,026 INFO (WordServiceImpl.java:132)- 取出单词disappeared,现还有1393条数据
+2018-12-26 14:24:57,030 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:24:57,030 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: appear(String)
+2018-12-26 14:24:57,032 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:24:57,046 INFO (WordController.java:133)- coreWordPage method: coreWord:appear
+2018-12-26 14:24:57,049 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:24:57,050 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: appear(String)
+2018-12-26 14:24:57,064 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 7
+2018-12-26 14:25:03,133 INFO (WordServiceImpl.java:132)- 取出单词empathic,现还有1392条数据
+2018-12-26 14:25:03,135 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:25:03,136 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: empathy(String)
+2018-12-26 14:25:03,137 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:25:03,161 INFO (WordController.java:133)- coreWordPage method: coreWord:empathy
+2018-12-26 14:25:03,162 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:25:03,163 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: empathy(String)
+2018-12-26 14:25:03,175 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2018-12-26 14:25:07,876 INFO (WordServiceImpl.java:132)- 取出单词supplementation,现还有1391条数据
+2018-12-26 14:25:07,878 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:25:07,879 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: supple(String)
+2018-12-26 14:25:07,881 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:25:07,910 INFO (WordController.java:133)- coreWordPage method: coreWord:supple
+2018-12-26 14:25:07,911 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:25:07,919 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: supple(String)
+2018-12-26 14:25:07,934 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2018-12-26 14:26:33,877 INFO (WordServiceImpl.java:132)- 取出单词stub,现还有1390条数据
+2018-12-26 14:26:33,892 INFO (WordController.java:133)- coreWordPage method: coreWord:stub
+2018-12-26 14:26:33,895 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:26:33,897 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: stub(String)
+2018-12-26 14:26:33,911 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-12-26 14:26:36,585 INFO (WordServiceImpl.java:132)- 取出单词musicology,现还有1389条数据
+2018-12-26 14:26:36,587 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:26:36,588 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: music(String)
+2018-12-26 14:26:36,590 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:26:36,602 INFO (WordController.java:133)- coreWordPage method: coreWord:music
+2018-12-26 14:26:36,603 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:26:36,604 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: music(String)
+2018-12-26 14:26:36,617 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 21
+2018-12-26 14:26:37,529 INFO (WordServiceImpl.java:132)- 取出单词nerve-racking,现还有1388条数据
+2018-12-26 14:26:37,530 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( word = ? ) 
+2018-12-26 14:26:37,531 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: nervous(String)
+2018-12-26 14:26:37,532 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-12-26 14:26:37,540 INFO (WordController.java:133)- coreWordPage method: coreWord:nervous
+2018-12-26 14:26:37,542 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:26:37,543 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: nervous(String)
+2018-12-26 14:26:37,556 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 7
+2018-12-26 14:26:38,277 INFO (WordServiceImpl.java:132)- 取出单词stale,现还有1387条数据
+2018-12-26 14:26:38,292 INFO (WordController.java:133)- coreWordPage method: coreWord:stale
+2018-12-26 14:26:38,294 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, word, chinese, root, coreword, sentence, note,phonetic from word WHERE ( coreword = ? ) 
+2018-12-26 14:26:38,295 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: stale(String)
+2018-12-26 14:26:38,307 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
