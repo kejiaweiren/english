@@ -15,6 +15,9 @@ $(function() {
     $("#nextSpan").click(function () {
         loadWord(null);
     });
+    $("#search").click(function(){
+        loadWord($("#searchWord").val());
+    })
 });
 /**
  * 加载word
@@ -24,17 +27,15 @@ function loadWord(word){
     var param={};
     if(word){
         param={
-            word:word
+            word:word.trim().toLowerCase()
         };
         url="/getDetailByWord";
     }else{
         url="/randomWord";
+        $(".wordExplain").hide();
     }
     $(".wordExplain").not("#rootTable").html("");
     $("#wordtbody").html("");
-    $(".wordExplain").hide();
-    $(".wordExplain").hide();
-
     $.ajax({
         url:url,
         dataType:"JSON",
