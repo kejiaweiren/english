@@ -16,7 +16,11 @@ $(function() {
         loadWord(null);
     });
     $("#search").click(function(){
-        loadWord($("#searchWord").val());
+        if($("#searchWord").val().trim()!=""){
+            loadWord(
+                $("#searchWord").val()
+            );
+        }
     })
 });
 /**
@@ -43,30 +47,31 @@ function loadWord(word){
         success:function(data){
             if(data.code==200){//如果成功
                 var worddata=data.extend.word;//得到数据
-                $("#word").html("<h1><span id='currentWord'>"+worddata.word+"</span>"+worddata.phonetic+"</h1>");
-                $("#root").html(worddata.root);//词根
-                var note=""
-                if(worddata.coreword){
-                    loadWordsByCoreWord(worddata.coreword);//加载核心词相关单词
+                if(worddata){
+                    $("#word").html("<h1><span id='currentWord'>"+worddata.word+"</span>"+worddata.phonetic+"</h1>");
+                    $("#root").html(worddata.root);//词根
+                    var note=""
+                    if(worddata.coreword){
+                        loadWordsByCoreWord(worddata.coreword);//加载核心词相关单词
+                    }
+                    if(worddata.core){//如果存在核心词对象
+                        $("#coreWord").html("<b>核心词："+worddata.core.word+worddata.core.phonetic+"</b>");//核心词
+                        note+="---------核心词解析----------<br/>";
+                        note+=worddata.core.note+"<br/><div id='corewordimgdiv'></div>";
+                        note+="-------------------<br/>";
+                        getWordImgHtml(worddata.core.word,"corewordimgdiv");//这个单词核心词的图片
+                    }
+                    note+=worddata.note;//解释
+                    note+="<br/>";
+                    var word=worddata.word;//单词
+                    note+="<div id='wordimgdiv'></div>";
+                    getWordImgHtml(word,"wordimgdiv");//这个单词的图片
+                    $("#note").html(note);
+                    $("#chinese").html(worddata.chinese);
+                    if(worddata.coreword){
+                        $("#sentence").html(worddata.sentence);
+                    }
                 }
-                if(worddata.core){//如果存在核心词对象
-                    $("#coreWord").html("<b>核心词："+worddata.core.word+worddata.core.phonetic+"</b>");//核心词
-                    note+="---------核心词解析----------<br/>";
-                    note+=worddata.core.note+"<br/><div id='corewordimgdiv'></div>";
-                    note+="-------------------<br/>";
-                    getWordImgHtml(worddata.core.word,"corewordimgdiv");//这个单词核心词的图片
-                }
-                note+=worddata.note;//解释
-                note+="<br/>";
-                var word=worddata.word;//单词
-                note+="<div id='wordimgdiv'></div>";
-                getWordImgHtml(word,"wordimgdiv");//这个单词的图片
-                $("#note").html(note);
-                $("#chinese").html(worddata.chinese);
-                if(worddata.coreword){
-                    $("#sentence").html(worddata.sentence);
-                }
-
             }else{
                 alert(data.extend.errMsg);
             }
