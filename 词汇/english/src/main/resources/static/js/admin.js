@@ -29,7 +29,7 @@ function importWord(){
                 success: function (data) {
                     $('#myModal').modal('hide');//loading框显示
                     if(data.code==200) {//如果成功
-                        alert("import success");
+                        // alert("import success");
                         window.location.reload();
                     }else{
                         var errorHtml="";
@@ -46,6 +46,7 @@ function importWord(){
                         }
                         $("#importError").html(errorHtml);
                         $("#importError").show();
+                        $('#myModal').modal('hide');
                     }
                 }
             });
